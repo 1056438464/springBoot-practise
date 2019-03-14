@@ -21,7 +21,7 @@ public class userService {
         return jedisCluster.get("userName");
 
     }
-
+	//set操作
     public Service findRedisStringValue(){
 
         redisTemplate.opsForSet().add("test","hhaha");

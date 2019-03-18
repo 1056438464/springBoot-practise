@@ -4,6 +4,7 @@ import com.shangwj.blog.service.userService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -25,6 +26,11 @@ public class testController {
         return "sssss";
     }
 
+    @RequestMapping(value = "/restfull/{id}")
+    public Integer testRestFull(@PathVariable("id") Integer id){
+
+        return id;
+    }
     @RequestMapping("/redis")
     public String findRedis() {
 

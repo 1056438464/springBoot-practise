@@ -45,6 +45,7 @@
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.39</version>
 		</dependency>
 		<!--热部署-->
 		<dependency>
@@ -123,13 +124,13 @@
 					<include>**/*.*</include>
 				</includes>
 			</resource>
-			<resource>
-				<directory>src/main/webapp</directory>
-				<targetPath>META-INF/resources</targetPath>
-				<includes>
-					<include>**/*.*</include>
-				</includes>
-			</resource>
+			<!--<resource>-->
+				<!--<directory>src/main/webapp</directory>-->
+				<!--<targetPath>META-INF/resources</targetPath>-->
+				<!--<includes>-->
+					<!--<include>**/*.*</include>-->
+				<!--</includes>-->
+			<!--</resource>-->
 		</resources>
 	</build>
 

@@ -6,7 +6,7 @@
 <generatorConfiguration>
 
     <!-- 指定连接数据库的JDBC驱动包所在位置，指定到你本机的完整路径 -->
-    <classPathEntry location="./mysql-connector-java-5.1.39.jar"/>
+    <classPathEntry location="C:\Users\SWJ\.m2\repository\mysql\mysql-connector-java\5.1.39\mysql-connector-java-5.1.39.jar" />
 
     <!-- 配置table表信息内容体，targetRuntime指定采用MyBatis3的版本 -->
     <context id="tables" targetRuntime="MyBatis3">

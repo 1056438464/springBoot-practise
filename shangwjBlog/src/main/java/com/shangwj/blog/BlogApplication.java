@@ -6,10 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
-@SpringBootApplication
+@SpringBootApplication()
 @EnableCaching
 @EnableTransactionManagement
-@MapperScan(basePackages="com.bjpowernode.springboot.mapper") //自动扫描mapperr
+//@MapperScan(basePackages="com.shangwj.blog.mapper") //自动扫描mapperr
 public class BlogApplication {
 
 	public static void main(String[] args) {

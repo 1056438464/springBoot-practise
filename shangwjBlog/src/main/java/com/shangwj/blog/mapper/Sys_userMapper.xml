@@ -12,7 +12,7 @@
     id, username, password, createtime, role_id
   </sql>
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
-    select 
+    select
     <include refid="Base_Column_List" />
     from sys_user
     where id = #{id,jdbcType=INTEGER}
@@ -22,9 +22,9 @@
     where id = #{id,jdbcType=INTEGER}
   </delete>
   <insert id="insert" parameterType="com.shangwj.blog.model.Sys_user" >
-    insert into sys_user (id, username, password, 
+    insert into sys_user (id, username, password,
       createtime, role_id)
-    values (#{id,jdbcType=INTEGER}, #{username,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}, 
+    values (#{id,jdbcType=INTEGER}, #{username,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR},
       #{createtime,jdbcType=TIMESTAMP}, #{roleId,jdbcType=INTEGER})
   </insert>
   <insert id="insertSelective" parameterType="com.shangwj.blog.model.Sys_user" >
@@ -90,4 +90,8 @@
       role_id = #{roleId,jdbcType=INTEGER}
     where id = #{id,jdbcType=INTEGER}
   </update>
+
+  <select id="getAllUserInfo" parameterType="BaseResultMap">
+        SELECT * from sys_user
+  </select>
 </mapper>

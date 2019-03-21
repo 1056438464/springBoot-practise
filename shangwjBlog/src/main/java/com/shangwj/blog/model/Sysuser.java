@@ -2,7 +2,7 @@ package com.shangwj.blog.model;
 
 import java.util.Date;
 
-public class Sys_user {
+public class Sysuser {
     private Integer id;
 
     private String username;

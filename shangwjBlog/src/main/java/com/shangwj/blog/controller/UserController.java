@@ -1,10 +1,11 @@
 package com.shangwj.blog.controller;
 
-import com.shangwj.blog.model.Sys_user;
+import com.shangwj.blog.model.Sysuser;
 import com.shangwj.blog.service.SysUserService;
 import net.minidev.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.core.SetOperations;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import redis.clients.jedis.JedisCluster;
@@ -13,6 +14,7 @@ import javax.annotation.Resource;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 import static java.awt.SystemColor.info;
 
@@ -26,28 +28,33 @@ public class UserController {
 
 
 
+
     JSONObject object = new JSONObject();
 
-    @RequestMapping(value = "/getUserInfo")
-    public Object getUserInfo() {
-        Sys_user info = new Sys_user();
-        try {
 
+    @RequestMapping(value = "/getUserInfo")
+    public String getUserInfo() {
+        List<Map<String,Object>> info = new ArrayList<>();
+
+        try {
+            info = sysUserService.getAllUserInfo();
+            object.put("message", info);
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return object.put("message", "aaa");
+        return object.toString();
     }
 
 
-//    @RequestMapping(value = "/operaRedis")
-//    public Object operaRedis() {
-//
-//        try {
-//            redisTemplate.opsForSet().add("usr","name","swj");
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
-//        return object.put("message", "successful");
-//    }
+    @RequestMapping(value = "/operaRedis")
+    public Object operaRedis() {
+
+        try {
+
+            sysUserService.operaRedis();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return object.put("message", "successful");
+    }
 }

@@ -50,8 +50,18 @@ public class UserController {
     public Object operaRedis() {
 
         try {
+            sysUserService.operaRedisSet();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return object.put("message", "successful");
+    }
 
-            sysUserService.operaRedis();
+    @RequestMapping(value = "/operaRedisInteger")
+    public Object operaRedisInteger() {
+
+        try {
+            sysUserService.operaRedisSetInteger();
         } catch (Exception e) {
             e.printStackTrace();
         }

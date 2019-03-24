@@ -10,5 +10,10 @@ public interface SysUserService {
 
    List<Map<String,Object>> getAllUserInfo() throws Exception;
 
-   void operaRedis() throws Exception;
+   void operaRedisSet() throws Exception;
+
+   void operaRedisSetInteger() throws Exception;
+
+   void operaRedisHash() throws  Exception;
+
 }

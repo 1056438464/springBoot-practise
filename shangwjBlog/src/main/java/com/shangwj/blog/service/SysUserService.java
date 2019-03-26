@@ -16,4 +16,6 @@ public interface SysUserService {
 
    void operaRedisHash() throws  Exception;
 
+   void operaRedisList() throws Exception;
+
 }

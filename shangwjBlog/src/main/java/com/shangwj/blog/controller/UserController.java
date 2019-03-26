@@ -67,4 +67,27 @@ public class UserController {
         }
         return object.put("message", "successful");
     }
+
+    @RequestMapping(value = "/operaRedisHash")
+    public Object operaRedisHash() {
+
+        try {
+            sysUserService.operaRedisHash();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return object.put("message", "successful");
+    }
+
+
+    @RequestMapping(value = "/operaRedisList")
+    public Object operaRedisList() {
+
+        try {
+            sysUserService.operaRedisList();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return object.put("message", "successful");
+    }
 }

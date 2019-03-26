@@ -8,10 +8,7 @@ import org.springframework.data.redis.core.SetOperations;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Service;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 
 @Service
@@ -49,21 +46,48 @@ public class SysUserServiceImp implements SysUserService {
 
     @Override
     public void operaRedisHash() throws Exception {
-        Map<String,String> map=new HashMap<String,String>();
+        Map<Object,Object> map=new HashMap<Object,Object>();
         map.put("key1","value1");
         map.put("key2","value2");
         map.put("key3","value3");
         map.put("key4","value4");
         map.put("key5","value5");
-        redisTemplate.opsForHash().putAll("map1",map);
-        Map<String,String> resultMap= redisTemplate.opsForHash().entries("map1");
-        List<String>reslutMapList=redisTemplate.opsForHash().values("map1");
-        Set<String>resultMapSet=redisTemplate.opsForHash().keys("map1");
-        String value=(String)redisTemplate.opsForHash().get("map1","key1");
+        stringRedisTemplate.opsForHash().putAll("map2",map);
+        Map<Object,Object> resultMap= stringRedisTemplate.opsForHash().entries("map2");
+        List<Object> reslutMapList=stringRedisTemplate.opsForHash().values("map2");
+        Set<Object> resultMapSet=stringRedisTemplate.opsForHash().keys("map2");
+        String value=(String)stringRedisTemplate.opsForHash().get("map2","key1");
         System.out.println("value:"+value);
         System.out.println("resultMapSet:"+resultMapSet);
         System.out.println("resultMap:"+resultMap);
         System.out.println("resulreslutMapListtMap:"+reslutMapList);
+
+    }
+
+    @Override
+    public void operaRedisList() throws Exception {
+//        List<String> list1=new ArrayList<String>();
+//        list1.add("a1");
+//        list1.add("a2");
+//        list1.add("a3");
+//
+//        List<String> list2=new ArrayList<String>();
+//        list2.add("b1");
+//        list2.add("b2");
+//        list2.add("b3");
+//        redisTemplate.opsForList().leftPush("listkey1",list1);
+//        redisTemplate.opsForList().rightPush("listkey2",list2);
+//        List<String> resultList1=(List<String>)redisTemplate.opsForList().leftPop("listkey1");
+//        List<String> resultList2=(List<String>)redisTemplate.opsForList().rightPop("listkey2");
+//        System.out.println("resultList1:"+resultList1);
+//        System.out.println("resultList2:"+resultList2);
+
+        List<String> resultList1=stringRedisTemplate.opsForList().range("list1",0,-1);
+        System.out.println("192310");
+        for (String object : resultList1) {
+            System.out.println(object);//c b a
+        }
+
 
     }
 

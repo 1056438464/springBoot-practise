@@ -66,23 +66,23 @@ public class SysUserServiceImp implements SysUserService {
 
     @Override
     public void operaRedisList() throws Exception {
-//        List<String> list1=new ArrayList<String>();
-//        list1.add("a1");
-//        list1.add("a2");
-//        list1.add("a3");
+        List<String> list2=new ArrayList<String>();
+        list2.add("a1");
+        list2.add("a2");
+        list2.add("a3");
 //
 //        List<String> list2=new ArrayList<String>();
 //        list2.add("b1");
 //        list2.add("b2");
 //        list2.add("b3");
-//        redisTemplate.opsForList().leftPush("listkey1",list1);
+        stringRedisTemplate.opsForList().leftPushAll("list2",list2);
 //        redisTemplate.opsForList().rightPush("listkey2",list2);
 //        List<String> resultList1=(List<String>)redisTemplate.opsForList().leftPop("listkey1");
 //        List<String> resultList2=(List<String>)redisTemplate.opsForList().rightPop("listkey2");
 //        System.out.println("resultList1:"+resultList1);
 //        System.out.println("resultList2:"+resultList2);
 
-        List<String> resultList1=stringRedisTemplate.opsForList().range("list1",0,-1);
+        List<String> resultList1=stringRedisTemplate.opsForList().range("list2",0,-1);
         System.out.println("192310");
         for (String object : resultList1) {
             System.out.println(object);//c b a

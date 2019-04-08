@@ -84,6 +84,7 @@ public class UserController {
     public Object operaRedisList() {
 
         try {
+            //redis
             sysUserService.operaRedisList();
         } catch (Exception e) {
             e.printStackTrace();

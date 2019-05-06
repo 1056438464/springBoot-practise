@@ -46,6 +46,7 @@
         <dependency>
             <groupId>com.swj</groupId>
             <artifactId>dubbo-service-user-api</artifactId>
+			<version>${project.version}</version>
         </dependency>
 
 	</dependencies>

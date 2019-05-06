@@ -1,4 +1,4 @@
-package com.swj.dubbo.service.user;
+package com.swj.dubbo.service.user.api;
 
 public interface userService {
     String sayHi();

@@ -1,0 +1,47 @@
+# Spring boot application
+spring:
+  application:
+    name: dubbo-service-user-consumer
+#server:
+#  port: 9090
+
+# UserService service version
+user:
+  service:
+    version: 1.0.0
+
+# Dubbo Config properties
+dubbo:
+  scan:
+    basePackages: com.swj.dubboserviceuserprovider.api
+  ## ApplicationConfig Bean
+  application:
+    id: dubbo-service-user-consumer
+    name: dubbo-service-user-consumer
+    qos-port:  22222
+    qos-enable: true
+  protocol:
+    id: dubbo
+    name: dubbo
+    status: server
+  registry:
+    id: zookeeper
+    address: zookeeper://192.168.1.11:2181?backup=192.168.1.11:2182,192.168.1.11:2183
+
+management:
+  endpoint:
+      dubbo:
+        enabled: true
+      dubbo-shutdown:
+        enabled: true
+      dubbo-configs:
+        enabled: true
+      dubbo-services:
+        enabled: true
+      dubbo-references:
+        enabled: true
+      dubbo-properties:
+        enabled: true
+
+
+

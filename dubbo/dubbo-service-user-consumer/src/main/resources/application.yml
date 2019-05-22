@@ -2,8 +2,8 @@
 spring:
   application:
     name: dubbo-service-user-consumer
-#server:
-#  port: 9090
+server:
+  port: 9090
 
 # UserService service version
 user:
@@ -13,12 +13,12 @@ user:
 # Dubbo Config properties
 dubbo:
   scan:
-    basePackages: com.swj.dubboserviceuserprovider.api
+    basePackages: com.swj.dubboserviceuserconsumer.controller
   ## ApplicationConfig Bean
   application:
     id: dubbo-service-user-consumer
     name: dubbo-service-user-consumer
-    qos-port:  22222
+    qos-port:  222222
     qos-enable: true
   protocol:
     id: dubbo
@@ -51,5 +51,6 @@ management:
         defaults: memory
         ## StatusChecker Name extras (default : empty )
         extras: load,threadpool
+
 
 

@@ -24,6 +24,8 @@ dubbo:
     id: dubbo
     name: dubbo
     status: server
+    serialization: kryo
+#    optimizer: 写service实现类
   registry:
     id: zookeeper
     address: zookeeper://192.168.1.11:2181?backup=192.168.1.11:2182,192.168.1.11:2183

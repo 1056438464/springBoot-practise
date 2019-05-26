@@ -25,6 +25,7 @@ dubbo:
     name: dubbo
     status: server
     port: 12346
+    serialization: kryo
   registry:
     id: zookeeper
     address: zookeeper://192.168.1.11:2181?backup=192.168.1.11:2182,192.168.1.11:2183

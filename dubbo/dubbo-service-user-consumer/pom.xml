@@ -19,6 +19,8 @@
 	</properties>
 
 	<dependencies>
+
+		<!--kryo-->
 		<dependency>
 			<groupId>de.javakaffee</groupId>
 			<artifactId>kryo-serializers</artifactId>

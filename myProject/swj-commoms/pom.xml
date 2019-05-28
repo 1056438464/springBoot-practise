@@ -13,7 +13,7 @@
 	<artifactId>swj-commons</artifactId>
 	<packaging>jar</packaging>
 
-	<name>myshop-commons</name>
+	<name>swj-commons</name>
 	<inceptionYear>2019-Now</inceptionYear>
 
 	<dependencies>

@@ -10,26 +10,17 @@
 		<relativePath>../swj-dependencies/pom.xml</relativePath>
 	</parent>
 
-	<artifactId>swj-commons-domain</artifactId>
+	<artifactId>swj-commons-service</artifactId>
 	<packaging>jar</packaging>
 
-	<name>swj-commons-domain</name>
+	<name>swj-commons-service</name>
 	<inceptionYear>2019-Now</inceptionYear>
 
 	<dependencies>
-		<!-- Commons Begin -->
-		<dependency>
-			<groupId>org.hibernate.javax.persistence</groupId>
-			<artifactId>hibernate-jpa-2.1-api</artifactId>
-		</dependency>
-		<!-- Commons End -->
-
-		<!-- Projects Begin -->
 		<dependency>
 			<groupId>com.swj</groupId>
-			<artifactId>swj-commons</artifactId>
+			<artifactId>swj-commons-mapper</artifactId>
 			<version>${project.parent.version}</version>
 		</dependency>
-		<!-- Projects End -->
 	</dependencies>
 </project>

@@ -17,10 +17,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/swj-commons-domain/pom.xml">
+        <entry file="file://$PROJECT_DIR$/swj-commons-mapper/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+            <state relative-caret-position="828">
+              <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -44,7 +44,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/swj-commom/pom.xml" />
-        <option value="$PROJECT_DIR$/swj-commons-mapper/pom.xml" />
         <option value="$PROJECT_DIR$/swj-commons-mapper/src/main/java/tk.mybatis.mapper/MyMapper.java" />
         <option value="$PROJECT_DIR$/swj-commons-mapper/.gitignore" />
         <option value="$PROJECT_DIR$/swj-commons-mapper/src/main/java/tk/mybatis/mapper/MyMapper.java" />
@@ -53,6 +52,7 @@
         <option value="$PROJECT_DIR$/swj-dependencies/pom.xml" />
         <option value="$PROJECT_DIR$/swj-commoms/pom.xml" />
         <option value="$PROJECT_DIR$/swj-commons-domain/pom.xml" />
+        <option value="$PROJECT_DIR$/swj-commons-mapper/pom.xml" />
       </list>
     </option>
   </component>
@@ -124,12 +124,12 @@
             <path>
               <item name="myProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="myProject" type="462c0819:PsiDirectoryNode" />
-              <item name="swj-commoms" type="462c0819:PsiDirectoryNode" />
+              <item name="swj-commons-mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="myProject" type="462c0819:PsiDirectoryNode" />
-              <item name="swj-commons-domain" type="462c0819:PsiDirectoryNode" />
+              <item name="swj-dependencies" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -269,12 +269,12 @@
       <workItem from="1559055539789" duration="1646000" />
       <workItem from="1559057214006" duration="1047000" />
       <workItem from="1559139852940" duration="197000" />
-      <workItem from="1559398986935" duration="3540000" />
+      <workItem from="1559398986935" duration="4367000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7268000" />
+    <option name="totallyTimeSpent" value="8095000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -442,13 +442,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/swj-commons-mapper/src/main/java/tk.mybatis.mapper/MyMapper.java" />
-    <entry file="file://$PROJECT_DIR$/swj-commons-mapper/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="24" column="31" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/swj-commons-mapper/src/main/java/tk/mybatis/mapper/MyMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -511,9 +504,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/swj-commoms/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="591">
+          <caret line="51" column="20" lean-forward="false" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+          <folding>
+            <marker date="1559403310018" expanded="true" signature="143:1701" ph="..." />
+            <marker date="1559403310018" expanded="true" signature="292:471" ph="..." />
+            <marker date="1559403310018" expanded="true" signature="623:1690" ph="..." />
+            <marker date="1559403310018" expanded="true" signature="638:729" ph="..." />
+            <marker date="1559403310018" expanded="true" signature="745:846" ph="..." />
+            <marker date="1559403310018" expanded="true" signature="862:972" ph="..." />
+            <marker date="1559403310018" expanded="true" signature="987:1107" ph="..." />
+            <marker date="1559403310018" expanded="true" signature="1123:1220" ph="..." />
+            <marker date="1559403310018" expanded="true" signature="1235:1337" ph="..." />
+            <marker date="1559403310018" expanded="true" signature="1353:1452" ph="..." />
+            <marker date="1559403310018" expanded="true" signature="1467:1566" ph="..." />
+            <marker date="1559403310018" expanded="true" signature="1582:1673" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swj-commons-domain/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+          <folding>
+            <marker date="1559403559133" expanded="true" signature="143:1076" ph="..." />
+            <marker date="1559403559133" expanded="true" signature="292:471" ph="..." />
+            <marker date="1559403559133" expanded="true" signature="637:1065" ph="..." />
+            <marker date="1559403559133" expanded="true" signature="890:1024" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/swj-dependencies/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
+        <state relative-caret-position="4317">
           <caret line="238" column="36" lean-forward="true" selection-start-line="238" selection-start-column="36" selection-end-line="238" selection-end-column="36" />
           <folding>
             <marker date="1559402796216" expanded="true" signature="89:8799" ph="..." />
@@ -582,31 +609,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/swj-commoms/pom.xml">
+    <entry file="file://$PROJECT_DIR$/swj-commons-mapper/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="51" column="20" lean-forward="false" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
-          <folding>
-            <marker date="1559403310018" expanded="true" signature="143:1701" ph="..." />
-            <marker date="1559403310018" expanded="true" signature="292:471" ph="..." />
-            <marker date="1559403310018" expanded="true" signature="623:1690" ph="..." />
-            <marker date="1559403310018" expanded="true" signature="638:729" ph="..." />
-            <marker date="1559403310018" expanded="true" signature="745:846" ph="..." />
-            <marker date="1559403310018" expanded="true" signature="862:972" ph="..." />
-            <marker date="1559403310018" expanded="true" signature="987:1107" ph="..." />
-            <marker date="1559403310018" expanded="true" signature="1123:1220" ph="..." />
-            <marker date="1559403310018" expanded="true" signature="1235:1337" ph="..." />
-            <marker date="1559403310018" expanded="true" signature="1353:1452" ph="..." />
-            <marker date="1559403310018" expanded="true" signature="1467:1566" ph="..." />
-            <marker date="1559403310018" expanded="true" signature="1582:1673" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swj-commons-domain/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        <state relative-caret-position="828">
+          <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
           <folding />
         </state>
       </provider>

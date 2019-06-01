@@ -1,4 +1,6 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
@@ -13,8 +15,7 @@
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
-	<name>swj-dependencies</name>
-	<inceptionYear>2019-Now</inceptionYear>
+	<inceptionYear>2018-Now</inceptionYear>
 
 	<properties>
 		<!-- Environment Settings -->
@@ -22,59 +23,74 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-		<!-- Spring Cloud Settings -->
-		<spring-cloud.version>Finchley.SR2</spring-cloud.version>
-		<spring-cloud-alibaba.version>0.2.1.RELEASE</spring-cloud-alibaba.version>
+		<!-- Spring Boot Starter Settings -->
+		<boot-dubbo.version>0.2.0</boot-dubbo.version>
+		<boot-mapper.version>2.0.2</boot-mapper.version>
+		<boot-pagehelper.version>1.2.5</boot-pagehelper.version>
+		<boot-druid.version>1.1.10</boot-druid.version>
 
-		<!-- Spring Boot Settings -->
-		<spring-boot-alibaba-druid.version>1.1.10</spring-boot-alibaba-druid.version>
-		<spring-boot-tk-mybatis.version>2.1.4</spring-boot-tk-mybatis.version>
-		<spring-boot-pagehelper.version>1.2.10</spring-boot-pagehelper.version>
+		<!-- Spring Cloud Settings -->
+		<cloud-hystrix.version>2.0.1.RELEASE</cloud-hystrix.version>
 
 		<!-- Commons Settings -->
-		<mysql.version>8.0.13</mysql.version>
+		<kyro.version>0.42</kyro.version>
+		<mysql.version>8.0.12</mysql.version>
+		<fastdfs.version>1.27</fastdfs.version>
 	</properties>
 
 	<dependencyManagement>
 		<dependencies>
+			<!-- Spring Boot Starter Begin -->
 			<dependency>
-				<groupId>org.springframework.cloud</groupId>
-				<artifactId>spring-cloud-dependencies</artifactId>
-				<version>${spring-cloud.version}</version>
-				<type>pom</type>
-				<scope>import</scope>
+				<groupId>com.alibaba.boot</groupId>
+				<artifactId>dubbo-spring-boot-starter</artifactId>
+				<version>${boot-dubbo.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>org.springframework.cloud</groupId>
-				<artifactId>spring-cloud-alibaba-dependencies</artifactId>
-				<version>${spring-cloud-alibaba.version}</version>
-				<type>pom</type>
-				<scope>import</scope>
-			</dependency>
-
-			<!-- Spring Boot Begin -->
-			<dependency>
-				<groupId>com.alibaba</groupId>
-				<artifactId>druid-spring-boot-starter</artifactId>
-				<version>${spring-boot-alibaba-druid.version}</version>
+				<groupId>com.alibaba.boot</groupId>
+				<artifactId>dubbo-spring-boot-actuator</artifactId>
+				<version>${boot-dubbo.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>tk.mybatis</groupId>
 				<artifactId>mapper-spring-boot-starter</artifactId>
-				<version>${spring-boot-tk-mybatis.version}</version>
+				<version>${boot-mapper.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.github.pagehelper</groupId>
 				<artifactId>pagehelper-spring-boot-starter</artifactId>
-				<version>${spring-boot-pagehelper.version}</version>
+				<version>${boot-pagehelper.version}</version>
 			</dependency>
-			<!-- Spring Boot End -->
+			<dependency>
+				<groupId>com.alibaba</groupId>
+				<artifactId>druid-spring-boot-starter</artifactId>
+				<version>${boot-druid.version}</version>
+			</dependency>
+			<!-- Spring Boot Starter End -->
+
+			<!-- Spring Cloud Begin -->
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+				<version>${cloud-hystrix.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-starter-netflix-hystrix-dashboard</artifactId>
+				<version>${cloud-hystrix.version}</version>
+			</dependency>
+			<!-- Spring Cloud End -->
 
 			<!-- Commons Begin -->
 			<dependency>
-				<groupId>mysql</groupId>
-				<artifactId>mysql-connector-java</artifactId>
-				<version>${mysql.version}</version>
+				<groupId>de.javakaffee</groupId>
+				<artifactId>kryo-serializers</artifactId>
+				<version>${kyro.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.csource</groupId>
+				<artifactId>fastdfs-client-java</artifactId>
+				<version>${fastdfs.version}</version>
 			</dependency>
 			<!-- Commons End -->
 		</dependencies>
@@ -208,17 +224,17 @@
 			</resource>
 		</resources>
 	</build>
-	<!--私服地址-->
+
 	<!--<distributionManagement>-->
 		<!--<repository>-->
 			<!--<id>nexus-releases</id>-->
 			<!--<name>Nexus Release Repository</name>-->
-			<!--<url>http://192.168.10.146:8081/repository/maven-releases/</url>-->
+			<!--<url>http://192.168.10.133:8081/repository/maven-releases/</url>-->
 		<!--</repository>-->
 		<!--<snapshotRepository>-->
 			<!--<id>nexus-snapshots</id>-->
 			<!--<name>Nexus Snapshot Repository</name>-->
-			<!--<url>http://192.168.10.146:8081/repository/maven-snapshots/</url>-->
+			<!--<url>http://192.168.10.133:8081/repository/maven-snapshots/</url>-->
 		<!--</snapshotRepository>-->
 	<!--</distributionManagement>-->
 
@@ -226,7 +242,7 @@
 		<!--<repository>-->
 			<!--<id>nexus</id>-->
 			<!--<name>Nexus Repository</name>-->
-			<!--<url>http://192.168.10.146:8081/repository/maven-public/</url>-->
+			<!--<url>http://192.168.10.133:8081/repository/maven-public/</url>-->
 			<!--<snapshots>-->
 				<!--<enabled>true</enabled>-->
 			<!--</snapshots>-->
@@ -269,30 +285,13 @@
 				<enabled>true</enabled>
 			</snapshots>
 		</repository>
-
-		<repository>
-			<id>spring-snapshots</id>
-			<name>Spring Snapshots</name>
-			<url>https://repo.spring.io/snapshot</url>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</repository>
-		<repository>
-			<id>spring-milestones</id>
-			<name>Spring Milestones</name>
-			<url>https://repo.spring.io/milestone</url>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
 	</repositories>
 
 	<pluginRepositories>
 		<!--<pluginRepository>-->
 			<!--<id>nexus</id>-->
 			<!--<name>Nexus Plugin Repository</name>-->
-			<!--<url>http://192.168.10.146:8081/repository/maven-public/</url>-->
+			<!--<url>http://192.168.10.133:8081/repository/maven-public/</url>-->
 			<!--<snapshots>-->
 				<!--<enabled>true</enabled>-->
 			<!--</snapshots>-->

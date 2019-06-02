@@ -18,9 +18,9 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>tk.mybatis</groupId>
-			<artifactId>mapper</artifactId>
-			<version>4.1.4</version>
+			<groupId>com.swj</groupId>
+			<artifactId>swj-commons-mapper</artifactId>
+			<version>${project.parent.version}</version>
 		</dependency>
 	</dependencies>
 
@@ -39,12 +39,12 @@
 					<dependency>
 						<groupId>mysql</groupId>
 						<artifactId>mysql-connector-java</artifactId>
-						<version>8.0.13</version>
+						<version>${mysql.version}</version>
 					</dependency>
 					<dependency>
 						<groupId>tk.mybatis</groupId>
 						<artifactId>mapper</artifactId>
-						<version>4.1.4</version>
+						<version>3.4.4</version>
 					</dependency>
 				</dependencies>
 			</plugin>

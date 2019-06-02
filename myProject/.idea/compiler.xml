@@ -7,17 +7,25 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="swj-commom" />
+        <module name="swj-commoms" />
         <module name="swj-commons-domain" />
         <module name="swj-commons-mapper" />
         <module name="swj-commons-service" />
+        <module name="swj-database" />
+        <module name="swj-static-backend" />
+        <module name="swjstaticbackend" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="swj-commom" target="1.8" />
+      <module name="swj-commoms" target="1.8" />
       <module name="swj-commons-domain" target="1.8" />
       <module name="swj-commons-mapper" target="1.8" />
       <module name="swj-commons-service" target="1.8" />
+      <module name="swj-database" target="1.8" />
       <module name="swj-dependencies" target="1.8" />
+      <module name="swj-static-backend" target="1.8" />
+      <module name="swjstaticbackend" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

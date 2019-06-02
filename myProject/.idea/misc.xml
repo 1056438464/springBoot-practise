@@ -8,6 +8,9 @@
         <option value="$PROJECT_DIR$/swj-commons-mapper/pom.xml" />
         <option value="$PROJECT_DIR$/swj-dependencies/pom.xml" />
         <option value="$PROJECT_DIR$/swj-commons-service/pom.xml" />
+        <option value="$PROJECT_DIR$/swj-database/pom.xml" />
+        <option value="$PROJECT_DIR$/swjstaticbackend/pom.xml" />
+        <option value="$PROJECT_DIR$/swj-static-backend/pom.xml" />
       </list>
     </option>
   </component>

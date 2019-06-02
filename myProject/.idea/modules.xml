@@ -3,11 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/myProject.iml" filepath="$PROJECT_DIR$/.idea/myProject.iml" />
-      <module fileurl="file://$PROJECT_DIR$/swj-commoms/swj-commom.iml" filepath="$PROJECT_DIR$/swj-commoms/swj-commom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swj-commoms/swj-commoms.iml" filepath="$PROJECT_DIR$/swj-commoms/swj-commoms.iml" />
       <module fileurl="file://$PROJECT_DIR$/swj-commons-domain/swj-commons-domain.iml" filepath="$PROJECT_DIR$/swj-commons-domain/swj-commons-domain.iml" />
       <module fileurl="file://$PROJECT_DIR$/swj-commons-mapper/swj-commons-mapper.iml" filepath="$PROJECT_DIR$/swj-commons-mapper/swj-commons-mapper.iml" />
       <module fileurl="file://$PROJECT_DIR$/swj-commons-service/swj-commons-service.iml" filepath="$PROJECT_DIR$/swj-commons-service/swj-commons-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swj-database/swj-database.iml" filepath="$PROJECT_DIR$/swj-database/swj-database.iml" />
       <module fileurl="file://$PROJECT_DIR$/swj-dependencies/swj-dependencies.iml" filepath="$PROJECT_DIR$/swj-dependencies/swj-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swj-static-backend/swj-static-backend.iml" filepath="$PROJECT_DIR$/swj-static-backend/swj-static-backend.iml" />
     </modules>
   </component>
 </project>

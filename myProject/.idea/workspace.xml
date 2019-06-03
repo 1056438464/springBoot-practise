@@ -10,6 +10,8 @@
     <ignored path="$PROJECT_DIR$/swj-database/target/" />
     <ignored path="$PROJECT_DIR$/swjstaticbackend/target/" />
     <ignored path="$PROJECT_DIR$/swj-static-backend/target/" />
+    <ignored path="$PROJECT_DIR$/swj-commons-dubbo/target/" />
+    <ignored path="$PROJECT_DIR$/swj-service-user-api/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,12 +21,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="jdbc.properties" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/swj-database/src/main/resources/jdbc.properties">
+      <file leaf-file-name="TbUserService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/swj-service-user-api/src/main/java/com/swj/service/user/api/TbUserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-              <folding />
+            <state relative-caret-position="161">
+              <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -34,8 +38,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="spring-beans.schema" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -57,10 +61,16 @@
         <option value="$PROJECT_DIR$/swj-commons-domain/pom.xml" />
         <option value="$PROJECT_DIR$/swj-commons-mapper/pom.xml" />
         <option value="$PROJECT_DIR$/swj-database/pom.xml" />
-        <option value="$PROJECT_DIR$/swj-database/src/main/resources/generator/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/swjstaticbackend/pom.xml" />
         <option value="$PROJECT_DIR$/swj-static-backend/pom.xml" />
         <option value="$PROJECT_DIR$/swj-database/src/main/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/swj-database/src/main/resources/generator/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/swj-commons-domain/src/main/java/com/swj/commons/domain/SysUser.java" />
+        <option value="$PROJECT_DIR$/swj-commons-mapper/src/main/java/tk/mybatis/mapper/SysUserMapper.java" />
+        <option value="$PROJECT_DIR$/swj-commons-dubbo/pom.xml" />
+        <option value="$PROJECT_DIR$/swj-commons-dubbo/src/main/java/com/swj/commons/dubbo/config/HystrixDashboardConfiguration.java" />
+        <option value="$PROJECT_DIR$/swj-service-user-api/pom.xml" />
+        <option value="$PROJECT_DIR$/swj-service-user-api/src/main/java/com/swj/service/user/api/TbUserService.java" />
       </list>
     </option>
   </component>
@@ -83,9 +93,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-50" />
-    <option name="y" value="240" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="152" />
+    <option name="y" value="14" />
     <option name="width" value="1938" />
     <option name="height" value="1048" />
   </component>
@@ -120,6 +130,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,37 +143,144 @@
             <path>
               <item name="myProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="myProject" type="462c0819:PsiDirectoryNode" />
-              <item name="swj-database" type="462c0819:PsiDirectoryNode" />
+              <item name="swj-commons-domain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="myProject" type="462c0819:PsiDirectoryNode" />
-              <item name="swj-database" type="462c0819:PsiDirectoryNode" />
+              <item name="swj-commons-domain" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="myProject" type="462c0819:PsiDirectoryNode" />
-              <item name="swj-database" type="462c0819:PsiDirectoryNode" />
+              <item name="swj-commons-domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myProject" type="462c0819:PsiDirectoryNode" />
+              <item name="swj-commons-domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myProject" type="462c0819:PsiDirectoryNode" />
+              <item name="swj-commons-domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myProject" type="462c0819:PsiDirectoryNode" />
+              <item name="swj-commons-domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myProject" type="462c0819:PsiDirectoryNode" />
+              <item name="swj-commons-domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swj" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myProject" type="462c0819:PsiDirectoryNode" />
+              <item name="swj-commons-domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swj" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myProject" type="462c0819:PsiDirectoryNode" />
+              <item name="swj-service-user-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myProject" type="462c0819:PsiDirectoryNode" />
+              <item name="swj-service-user-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myProject" type="462c0819:PsiDirectoryNode" />
+              <item name="swj-service-user-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="myProject" type="462c0819:PsiDirectoryNode" />
-              <item name="swj-database" type="462c0819:PsiDirectoryNode" />
+              <item name="swj-service-user-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myProject" type="462c0819:PsiDirectoryNode" />
+              <item name="swj-service-user-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myProject" type="462c0819:PsiDirectoryNode" />
+              <item name="swj-service-user-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myProject" type="462c0819:PsiDirectoryNode" />
+              <item name="swj-service-user-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swj" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myProject" type="462c0819:PsiDirectoryNode" />
+              <item name="swj-service-user-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swj" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -175,12 +295,16 @@
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tk.mybatis.mapper" />
+      <recent name="com.swj.commons.domain" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspaces\SpringBootBlog\myProject\swj-commons-dubbo" />
       <recent name="D:\workspaces\SpringBootBlog\myProject\swj-database" />
       <recent name="D:\workspaces\SpringBootBlog\myProject\swj-commons-service" />
       <recent name="D:\workspaces\SpringBootBlog\myProject\swj-commons-mapper" />
       <recent name="D:\workspaces\SpringBootBlog\myProject\swj-commons-domain" />
-      <recent name="D:\workspaces\SpringBootBlog\myProject\swj-commom" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -294,15 +418,16 @@
       <workItem from="1559057214006" duration="1047000" />
       <workItem from="1559139852940" duration="197000" />
       <workItem from="1559398986935" duration="4643000" />
-      <workItem from="1559484835773" duration="1984000" />
+      <workItem from="1559484835773" duration="2611000" />
+      <workItem from="1559572918851" duration="2716000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10355000" />
+    <option name="totallyTimeSpent" value="13698000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="152" y="14" width="1938" height="1048" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -313,12 +438,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979977" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26824033" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2719957" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -346,6 +471,21 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/swj-database/src/main/resources/generator/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="851">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <marker date="1559487622426" expanded="true" signature="240:1637" ph="..." />
+            <marker date="1559487622426" expanded="true" signature="389:1611" ph="..." />
+            <marker date="1559487622426" expanded="true" signature="598:690" ph="..." />
+            <marker date="1559487622426" expanded="true" signature="741:957" ph="..." />
+            <marker date="1559487622426" expanded="true" signature="1259:1394" ph="..." />
+            <marker date="1559487622426" expanded="true" signature="1472:1596" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/swj-database/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -509,23 +649,220 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/swj-commons-domain/pom.xml">
+    <entry file="file://$PROJECT_DIR$/swj-commons-mapper/src/main/java/tk/mybatis/mapper/MyMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        <state relative-caret-position="322">
+          <caret line="15" column="53" lean-forward="false" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swj-commoms/swj-commoms.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swj-commoms/src/main/java/com/swj/swjdependencies/SwjDependenciesApplication.java" />
+    <entry file="file://$PROJECT_DIR$/swj-commoms/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swj-commoms/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="51" column="20" lean-forward="false" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
           <folding>
-            <marker date="1559403559133" expanded="true" signature="143:1076" ph="..." />
-            <marker date="1559403559133" expanded="true" signature="292:471" ph="..." />
-            <marker date="1559403559133" expanded="true" signature="637:1065" ph="..." />
-            <marker date="1559403559133" expanded="true" signature="890:1024" ph="..." />
+            <marker date="1559403310018" expanded="true" signature="143:1701" ph="..." />
+            <marker date="1559403310018" expanded="true" signature="292:471" ph="..." />
+            <marker date="1559403310018" expanded="true" signature="623:1690" ph="..." />
+            <marker date="1559403310018" expanded="true" signature="638:729" ph="..." />
+            <marker date="1559403310018" expanded="true" signature="745:846" ph="..." />
+            <marker date="1559403310018" expanded="true" signature="862:972" ph="..." />
+            <marker date="1559403310018" expanded="true" signature="987:1107" ph="..." />
+            <marker date="1559403310018" expanded="true" signature="1123:1220" ph="..." />
+            <marker date="1559403310018" expanded="true" signature="1235:1337" ph="..." />
+            <marker date="1559403310018" expanded="true" signature="1353:1452" ph="..." />
+            <marker date="1559403310018" expanded="true" signature="1467:1566" ph="..." />
+            <marker date="1559403310018" expanded="true" signature="1582:1673" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swj-commons-mapper/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="44" column="35" lean-forward="false" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="35" />
+          <folding>
+            <marker date="1559404443666" expanded="true" signature="104:1428" ph="..." />
+            <marker date="1559404443666" expanded="true" signature="253:432" ph="..." />
+            <marker date="1559404443666" expanded="true" signature="598:1417" ph="..." />
+            <marker date="1559404443666" expanded="true" signature="613:735" ph="..." />
+            <marker date="1559404443666" expanded="true" signature="751:855" ph="..." />
+            <marker date="1559404443666" expanded="true" signature="870:974" ph="..." />
+            <marker date="1559404443666" expanded="true" signature="989:1108" ph="..." />
+            <marker date="1559404443666" expanded="true" signature="1124:1243" ph="..." />
+            <marker date="1559404443666" expanded="true" signature="1259:1400" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swj-database/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1104">
+          <caret line="48" column="31" lean-forward="true" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+          <folding>
+            <marker date="1559485112486" expanded="true" signature="143:1563" ph="..." />
+            <marker date="1559485112486" expanded="true" signature="292:471" ph="..." />
+            <marker date="1559485112486" expanded="true" signature="625:798" ph="..." />
+            <marker date="1559485112486" expanded="true" signature="640:781" ph="..." />
+            <marker date="1559485112486" expanded="true" signature="808:1552" ph="..." />
+            <marker date="1559485112486" expanded="true" signature="820:1542" ph="..." />
+            <marker date="1559485112486" expanded="true" signature="832:1529" ph="..." />
+            <marker date="1559485112486" expanded="true" signature="986:1173" ph="..." />
+            <marker date="1559485112486" expanded="true" signature="1192:1516" ph="..." />
+            <marker date="1559485112486" expanded="true" signature="1210:1354" ph="..." />
+            <marker date="1559485112486" expanded="true" signature="1372:1496" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swj-static-backend/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swj-database/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swj-database/src/main/resources/generator/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <marker date="1559487622426" expanded="true" signature="240:1637" ph="..." />
+            <marker date="1559487622426" expanded="true" signature="389:1611" ph="..." />
+            <marker date="1559487622426" expanded="true" signature="598:690" ph="..." />
+            <marker date="1559487622426" expanded="true" signature="741:957" ph="..." />
+            <marker date="1559487622426" expanded="true" signature="1259:1394" ph="..." />
+            <marker date="1559487622426" expanded="true" signature="1472:1596" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swj-database/src/main/java/com/swj/commons/domain/SysUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <marker date="1559487638096" expanded="true" signature="40:83" ph="..." />
+            <marker date="1559487638096" expanded="true" signature="143:202" ph="@{...}" />
+            <marker date="1559487638096" expanded="true" signature="381:410" ph="/**...*/" />
+            <marker date="1559487638096" expanded="false" signature="437:448" ph=" { " />
+            <marker date="1559487638096" expanded="false" signature="458:464" ph=" }" />
+            <marker date="1559487638096" expanded="true" signature="470:498" ph="/**...*/" />
+            <marker date="1559487638096" expanded="false" signature="532:543" ph=" { " />
+            <marker date="1559487638096" expanded="false" signature="556:562" ph=" }" />
+            <marker date="1559487638096" expanded="true" signature="568:603" ph="/**...*/" />
+            <marker date="1559487638096" expanded="false" signature="635:646" ph=" { " />
+            <marker date="1559487638096" expanded="false" signature="662:668" ph=" }" />
+            <marker date="1559487638096" expanded="true" signature="674:708" ph="/**...*/" />
+            <marker date="1559487638096" expanded="false" signature="753:764" ph=" { " />
+            <marker date="1559487638096" expanded="false" signature="789:795" ph=" }" />
+            <marker date="1559487638096" expanded="true" signature="801:836" ph="/**...*/" />
+            <marker date="1559487638096" expanded="false" signature="868:879" ph=" { " />
+            <marker date="1559487638096" expanded="false" signature="895:901" ph=" }" />
+            <marker date="1559487638096" expanded="true" signature="907:941" ph="/**...*/" />
+            <marker date="1559487638096" expanded="false" signature="986:997" ph=" { " />
+            <marker date="1559487638096" expanded="false" signature="1022:1028" ph=" }" />
+            <marker date="1559487638096" expanded="true" signature="1034:1071" ph="/**...*/" />
+            <marker date="1559487638096" expanded="false" signature="1103:1114" ph=" { " />
+            <marker date="1559487638096" expanded="false" signature="1132:1138" ph=" }" />
+            <marker date="1559487638096" expanded="true" signature="1144:1180" ph="/**...*/" />
+            <marker date="1559487638096" expanded="false" signature="1227:1238" ph=" { " />
+            <marker date="1559487638096" expanded="false" signature="1267:1273" ph=" }" />
+            <marker date="1559487638096" expanded="true" signature="1279:1313" ph="/**...*/" />
+            <marker date="1559487638096" expanded="false" signature="1344:1355" ph=" { " />
+            <marker date="1559487638096" expanded="false" signature="1369:1375" ph=" }" />
+            <marker date="1559487638096" expanded="true" signature="1381:1413" ph="/**...*/" />
+            <marker date="1559487638096" expanded="false" signature="1455:1466" ph=" { " />
+            <marker date="1559487638096" expanded="false" signature="1487:1493" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swj-commons-domain/src/main/java/com/swj/commons/domain/SysUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1559573436286" expanded="false" signature="40:83" ph="..." />
+            <marker date="1559573436286" expanded="true" signature="143:202" ph="@{...}" />
+            <marker date="1559573436286" expanded="true" signature="381:410" ph="/**...*/" />
+            <marker date="1559573436286" expanded="false" signature="437:448" ph=" { " />
+            <marker date="1559573436286" expanded="false" signature="458:464" ph=" }" />
+            <marker date="1559573436286" expanded="true" signature="470:498" ph="/**...*/" />
+            <marker date="1559573436286" expanded="false" signature="532:543" ph=" { " />
+            <marker date="1559573436286" expanded="false" signature="556:562" ph=" }" />
+            <marker date="1559573436286" expanded="true" signature="568:603" ph="/**...*/" />
+            <marker date="1559573436286" expanded="false" signature="635:646" ph=" { " />
+            <marker date="1559573436286" expanded="false" signature="662:668" ph=" }" />
+            <marker date="1559573436286" expanded="true" signature="674:708" ph="/**...*/" />
+            <marker date="1559573436286" expanded="false" signature="753:764" ph=" { " />
+            <marker date="1559573436286" expanded="false" signature="789:795" ph=" }" />
+            <marker date="1559573436286" expanded="true" signature="801:836" ph="/**...*/" />
+            <marker date="1559573436286" expanded="false" signature="868:879" ph=" { " />
+            <marker date="1559573436286" expanded="false" signature="895:901" ph=" }" />
+            <marker date="1559573436286" expanded="true" signature="907:941" ph="/**...*/" />
+            <marker date="1559573436286" expanded="false" signature="986:997" ph=" { " />
+            <marker date="1559573436286" expanded="false" signature="1022:1028" ph=" }" />
+            <marker date="1559573436286" expanded="true" signature="1034:1071" ph="/**...*/" />
+            <marker date="1559573436286" expanded="false" signature="1103:1114" ph=" { " />
+            <marker date="1559573436286" expanded="false" signature="1132:1138" ph=" }" />
+            <marker date="1559573436286" expanded="true" signature="1144:1180" ph="/**...*/" />
+            <marker date="1559573436286" expanded="false" signature="1227:1238" ph=" { " />
+            <marker date="1559573436286" expanded="false" signature="1267:1273" ph=" }" />
+            <marker date="1559573436286" expanded="true" signature="1279:1313" ph="/**...*/" />
+            <marker date="1559573436286" expanded="false" signature="1344:1355" ph=" { " />
+            <marker date="1559573436286" expanded="false" signature="1369:1375" ph=" }" />
+            <marker date="1559573436286" expanded="true" signature="1381:1413" ph="/**...*/" />
+            <marker date="1559573436286" expanded="false" signature="1455:1466" ph=" { " />
+            <marker date="1559573436286" expanded="false" signature="1487:1493" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swj-database/src/main/java/com/swj/commons/mapper/SysUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <marker date="1559487638103" expanded="false" signature="40:106" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swj-commons-mapper/src/main/java/tk/mybatis/mapper/SysUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/swj-dependencies/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4317">
-          <caret line="238" column="36" lean-forward="true" selection-start-line="238" selection-start-column="36" selection-end-line="238" selection-end-column="36" />
+        <state relative-caret-position="4593">
+          <caret line="238" column="36" lean-forward="false" selection-start-line="238" selection-start-column="36" selection-end-line="238" selection-end-column="36" />
           <folding>
             <marker date="1559402796216" expanded="true" signature="89:8799" ph="..." />
             <marker date="1559402796216" expanded="true" signature="295:441" ph="..." />
@@ -593,18 +930,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/swj-commons-mapper/src/main/java/tk/mybatis/mapper/MyMapper.java">
+    <entry file="file://$PROJECT_DIR$/swj-commons-dubbo/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="15" column="53" lean-forward="false" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+        <state relative-caret-position="207">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <marker date="1559056975946" expanded="false" signature="35:112" ph="..." />
-            <marker date="1559056975946" expanded="true" signature="114:273" ph="/**...*/" />
+            <marker date="1559574170112" expanded="true" signature="143:1594" ph="..." />
+            <marker date="1559574170112" expanded="true" signature="304:510" ph="..." />
+            <marker date="1559574170112" expanded="true" signature="654:1583" ph="..." />
+            <marker date="1559574170112" expanded="true" signature="721:856" ph="..." />
+            <marker date="1559574170112" expanded="true" signature="877:1010" ph="..." />
+            <marker date="1559574170112" expanded="true" signature="1031:1165" ph="..." />
+            <marker date="1559574170112" expanded="true" signature="1226:1379" ph="..." />
+            <marker date="1559574170112" expanded="true" signature="1400:1563" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/swj-commoms/swj-commoms.iml">
+    <entry file="file://$PROJECT_DIR$/swj-dependencies/mvnw">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -612,15 +955,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/swj-commoms/src/main/java/com/swj/swjdependencies/SwjDependenciesApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swj-commoms/.gitignore">
+    <entry file="file://$PROJECT_DIR$/swj-commons-dubbo/mvnw">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -628,100 +963,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/swj-commoms/pom.xml">
+    <entry file="file://$PROJECT_DIR$/swj-commons-dubbo/src/main/java/com/swj/commons/dubbo/config/servlet/HystrixDashboardConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="51" column="20" lean-forward="false" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+        <state relative-caret-position="184">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
-            <marker date="1559403310018" expanded="true" signature="143:1701" ph="..." />
-            <marker date="1559403310018" expanded="true" signature="292:471" ph="..." />
-            <marker date="1559403310018" expanded="true" signature="623:1690" ph="..." />
-            <marker date="1559403310018" expanded="true" signature="638:729" ph="..." />
-            <marker date="1559403310018" expanded="true" signature="745:846" ph="..." />
-            <marker date="1559403310018" expanded="true" signature="862:972" ph="..." />
-            <marker date="1559403310018" expanded="true" signature="987:1107" ph="..." />
-            <marker date="1559403310018" expanded="true" signature="1123:1220" ph="..." />
-            <marker date="1559403310018" expanded="true" signature="1235:1337" ph="..." />
-            <marker date="1559403310018" expanded="true" signature="1353:1452" ph="..." />
-            <marker date="1559403310018" expanded="true" signature="1467:1566" ph="..." />
-            <marker date="1559403310018" expanded="true" signature="1582:1673" ph="..." />
+            <marker date="1559574524152" expanded="true" signature="54:312" ph="..." />
+            <marker date="1559574524152" expanded="true" signature="432:825" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/swj-database/src/main/resources/generator/generatorConfig.xml">
+    <entry file="file://$PROJECT_DIR$/swj-commons-domain/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="897">
-          <caret line="39" column="44" lean-forward="false" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="46" />
+        <state relative-caret-position="552">
+          <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
           <folding>
-            <marker date="1559485810275" expanded="true" signature="240:1640" ph="..." />
-            <marker date="1559485810275" expanded="true" signature="389:1614" ph="..." />
-            <marker date="1559485810275" expanded="true" signature="598:690" ph="..." />
-            <marker date="1559485810275" expanded="true" signature="741:957" ph="..." />
-            <marker date="1559485810275" expanded="true" signature="1259:1394" ph="..." />
-            <marker date="1559485810275" expanded="true" signature="1475:1599" ph="..." />
+            <marker date="1559403559133" expanded="true" signature="143:1076" ph="..." />
+            <marker date="1559403559133" expanded="true" signature="292:471" ph="..." />
+            <marker date="1559403559133" expanded="true" signature="637:1065" ph="..." />
+            <marker date="1559403559133" expanded="true" signature="890:1024" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/swj-commons-mapper/pom.xml">
+    <entry file="file://$PROJECT_DIR$/swj-service-user-api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="44" column="35" lean-forward="false" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="35" />
+        <state relative-caret-position="391">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <marker date="1559404443666" expanded="true" signature="104:1428" ph="..." />
-            <marker date="1559404443666" expanded="true" signature="253:432" ph="..." />
-            <marker date="1559404443666" expanded="true" signature="598:1417" ph="..." />
-            <marker date="1559404443666" expanded="true" signature="613:735" ph="..." />
-            <marker date="1559404443666" expanded="true" signature="751:855" ph="..." />
-            <marker date="1559404443666" expanded="true" signature="870:974" ph="..." />
-            <marker date="1559404443666" expanded="true" signature="989:1108" ph="..." />
-            <marker date="1559404443666" expanded="true" signature="1124:1243" ph="..." />
-            <marker date="1559404443666" expanded="true" signature="1259:1400" ph="..." />
+            <marker date="1559574797865" expanded="true" signature="143:1087" ph="..." />
+            <marker date="1559574797865" expanded="true" signature="304:510" ph="..." />
+            <marker date="1559574797865" expanded="true" signature="696:1076" ph="..." />
+            <marker date="1559574797865" expanded="true" signature="717:860" ph="..." />
+            <marker date="1559574797865" expanded="true" signature="882:1056" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/swj-database/pom.xml">
+    <entry file="file://$PROJECT_DIR$/swj-service-user-api/src/main/java/com/swj/service/user/api/TbUserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1104">
-          <caret line="48" column="31" lean-forward="true" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+        <state relative-caret-position="161">
+          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
           <folding>
-            <marker date="1559485112486" expanded="true" signature="143:1563" ph="..." />
-            <marker date="1559485112486" expanded="true" signature="292:471" ph="..." />
-            <marker date="1559485112486" expanded="true" signature="625:798" ph="..." />
-            <marker date="1559485112486" expanded="true" signature="640:781" ph="..." />
-            <marker date="1559485112486" expanded="true" signature="808:1552" ph="..." />
-            <marker date="1559485112486" expanded="true" signature="820:1542" ph="..." />
-            <marker date="1559485112486" expanded="true" signature="832:1529" ph="..." />
-            <marker date="1559485112486" expanded="true" signature="986:1173" ph="..." />
-            <marker date="1559485112486" expanded="true" signature="1192:1516" ph="..." />
-            <marker date="1559485112486" expanded="true" signature="1210:1354" ph="..." />
-            <marker date="1559485112486" expanded="true" signature="1372:1496" ph="..." />
+            <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swj-static-backend/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <marker date="1559486659833" expanded="true" signature="89:1144" ph="..." />
-            <marker date="1559486659833" expanded="true" signature="313:519" ph="..." />
-            <marker date="1559486659833" expanded="true" signature="664:1133" ph="..." />
-            <marker date="1559486659833" expanded="true" signature="685:830" ph="..." />
-            <marker date="1559486659833" expanded="true" signature="852:976" ph="..." />
-            <marker date="1559486659833" expanded="true" signature="998:1113" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swj-database/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>

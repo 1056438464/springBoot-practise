@@ -1,4 +1,4 @@
-package com.swj.service.user.api;
+package com.swj.service.user.provider.api;
 
 import com.swj.commons.domain.SysUser;
 

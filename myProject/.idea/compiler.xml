@@ -14,6 +14,7 @@
         <module name="swj-commons-service" />
         <module name="swj-database" />
         <module name="swj-service-user-api" />
+        <module name="swj-service-user-provider" />
         <module name="swj-static-backend" />
         <module name="swjcommonsdubbo" />
         <module name="swjstaticbackend" />
@@ -29,6 +30,7 @@
       <module name="swj-database" target="1.8" />
       <module name="swj-dependencies" target="1.8" />
       <module name="swj-service-user-api" target="1.8" />
+      <module name="swj-service-user-provider" target="1.8" />
       <module name="swj-static-backend" target="1.8" />
       <module name="swjcommonsdubbo" target="1.5" />
       <module name="swjstaticbackend" target="1.5" />

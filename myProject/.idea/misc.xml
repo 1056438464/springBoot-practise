@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/swj-static-backend/pom.xml" />
         <option value="$PROJECT_DIR$/swj-commons-dubbo/pom.xml" />
         <option value="$PROJECT_DIR$/swj-service-user-api/pom.xml" />
+        <option value="$PROJECT_DIR$/swj-service-user-provider/pom.xml" />
       </list>
     </option>
   </component>

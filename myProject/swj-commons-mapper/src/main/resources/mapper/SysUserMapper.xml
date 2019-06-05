@@ -11,4 +11,8 @@
     <result column="createtime" jdbcType="TIMESTAMP" property="createtime" />
     <result column="role_id" jdbcType="INTEGER" property="roleId" />
   </resultMap>
+
+  <select id="getList" resultType="java.util.Map">
+    select * from sys_user;
+  </select>
 </mapper>

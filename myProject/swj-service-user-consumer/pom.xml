@@ -10,9 +10,8 @@
         <relativePath>../swj-dependencies/pom.xml</relativePath>
     </parent>
 
-    <artifactId>swj-service-user-provider</artifactId>
+    <artifactId>swj-service-user-consumer</artifactId>
     <packaging>jar</packaging>
-
 
     <inceptionYear>2018-Now</inceptionYear>
 
@@ -24,6 +23,12 @@
             <scope>test</scope>
         </dependency>
 
+        <dependency>
+            <groupId>com.ctrip.framework.apollo</groupId>
+            <artifactId>apollo-client</artifactId>
+            <version>1.1.0</version>
+        </dependency>
+
         <!-- Projects Settings -->
         <dependency>
             <groupId>com.swj</groupId>
@@ -32,7 +37,7 @@
         </dependency>
         <dependency>
             <groupId>com.swj</groupId>
-            <artifactId>swj-commons-mapper</artifactId>
+            <artifactId>swj-static-backend</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
         <dependency>
@@ -40,11 +45,6 @@
             <artifactId>swj-service-user-api</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
-        <!--<dependency>-->
-            <!--<groupId>com.swj</groupId>-->
-            <!--<artifactId>swj-service-redis-api</artifactId>-->
-            <!--<version>${project.parent.version}</version>-->
-        <!--</dependency>-->
     </dependencies>
 
     <build>
@@ -53,9 +53,10 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.swj.service.user.provider.SwjServiceUserProviderApplication</mainClass>
+                    <mainClass>com.swj.service.user.consumer.SwjServiceUserConsumerApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>
     </build>
+
 </project>

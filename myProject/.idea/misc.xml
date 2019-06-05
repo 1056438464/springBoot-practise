@@ -14,6 +14,7 @@
         <option value="$PROJECT_DIR$/swj-commons-dubbo/pom.xml" />
         <option value="$PROJECT_DIR$/swj-service-user-api/pom.xml" />
         <option value="$PROJECT_DIR$/swj-service-user-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/swj-service-user-consumer/pom.xml" />
       </list>
     </option>
   </component>

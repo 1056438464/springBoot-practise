@@ -8,12 +8,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.annotation.Transient;
 import org.springframework.transaction.annotation.Transactional;
 
+import javax.annotation.Resource;
 import java.util.List;
 
 @Service(version = "${services.versions.user.v1}")
 @Transactional(readOnly = true)
 public class TbUserServiceImpl implements TbUserService {
-    @Autowired
+    @Resource
     private SysUserMapper sysUserMapper;
     @Override
     public List<SysUser> selectAll() {

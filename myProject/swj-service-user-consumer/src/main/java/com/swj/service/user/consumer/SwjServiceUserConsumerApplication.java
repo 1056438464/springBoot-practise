@@ -1,22 +1,18 @@
-package com.swj.service.user.provider;
+package com.swj.service.user.consumer;
 
 import com.alibaba.dubbo.container.Main;
-import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboard;
-import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 
 @EnableHystrix
 @EnableHystrixDashboard
 @SpringBootApplication(scanBasePackages = "com.swj")
-@EnableTransactionManagement
-@MapperScan(basePackages = "com.swj.commons.mapper")
-public class SwjServiceUserProviderApplication {
+public class SwjServiceUserConsumerApplication {
     public static void main(String[] args) {
-        SpringApplication.run(SwjServiceUserProviderApplication.class,args);
+        SpringApplication.run(SwjServiceUserConsumerApplication.class, args);
         Main.main(args);
     }
 }

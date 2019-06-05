@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/swj-database/swj-database.iml" filepath="$PROJECT_DIR$/swj-database/swj-database.iml" />
       <module fileurl="file://$PROJECT_DIR$/swj-dependencies/swj-dependencies.iml" filepath="$PROJECT_DIR$/swj-dependencies/swj-dependencies.iml" />
       <module fileurl="file://$PROJECT_DIR$/swj-service-user-api/swj-service-user-api.iml" filepath="$PROJECT_DIR$/swj-service-user-api/swj-service-user-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swj-service-user-consumer/swj-service-user-consumer.iml" filepath="$PROJECT_DIR$/swj-service-user-consumer/swj-service-user-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/swj-service-user-provider/swj-service-user-provider.iml" filepath="$PROJECT_DIR$/swj-service-user-provider/swj-service-user-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/swj-static-backend/swj-static-backend.iml" filepath="$PROJECT_DIR$/swj-static-backend/swj-static-backend.iml" />
     </modules>

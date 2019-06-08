@@ -11,7 +11,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
-@Service
+@Service(version = "${services.versions.user.v1}")
 @Transactional(readOnly = true)
 public class TbUserServiceImpl implements TbUserService {
     @Autowired

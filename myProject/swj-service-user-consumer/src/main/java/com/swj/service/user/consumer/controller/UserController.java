@@ -12,7 +12,7 @@ import java.util.List;
 @RequestMapping(value = "user")
 public class UserController {
 
-    @Reference
+    @Reference(version = "${services.versions.user.v1}")
     private TbUserService tbUserSerxvice;
 
     @RequestMapping(value = "list")

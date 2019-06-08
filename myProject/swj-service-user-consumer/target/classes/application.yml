@@ -35,7 +35,7 @@ dubbo:
   ## RegistryConfig Bean
   registry:
     id: zookeeper
-    address: zookeeper://192.168.10.11:2181?backup=192.168.10.11:2182,192.168.10.11:2183
+    address: zookeeper://192.168.1.11:2181?backup=192.168.1.11:2182,192.168.1.11:2183
 
 # Dubbo Endpoint (default status is disable)
 endpoints:
@@ -71,8 +71,8 @@ management:
         include: "*"
 
 # Apollo
-apollo:
-  bootstrap:
-    enabled: true
-    # will inject 'application' and 'TEST1.apollo' namespaces in bootstrap phase
-    namespaces: application
+#apollo:
+#  bootstrap:
+#    enabled: true
+#    # will inject 'application' and 'TEST1.apollo' namespaces in bootstrap phase
+#    namespaces: application

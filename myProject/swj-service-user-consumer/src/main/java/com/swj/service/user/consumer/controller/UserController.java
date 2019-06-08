@@ -16,9 +16,9 @@ public class UserController {
     private TbUserService tbUserSerxvice;
 
     @RequestMapping(value = "list")
-    public Map<String, Object> getUserList() throws Exception{
+    public List selectAll() throws Exception{
 
-        return tbUserSerxvice.getList();
+        return tbUserSerxvice.selectAll();
     }
 
     @RequestMapping(value = "list1")

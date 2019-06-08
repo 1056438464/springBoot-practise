@@ -89,4 +89,4 @@ management:
 
 
 logging:
-  level.com.funtl.myshop.commons.mapper: DEBUG
+  level.com.swj.commons.mapper: DEBUG

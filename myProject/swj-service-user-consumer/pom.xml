@@ -53,7 +53,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.swj.service.user.consumer.SwjServiceUserConsumerApplication</mainClass>
+                    <mainClass>com.swj.service.user.provider.SwjServiceUserProviderApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>

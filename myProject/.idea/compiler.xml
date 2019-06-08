@@ -1,44 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <excludeFromCompile>
-      <file url="file://$PROJECT_DIR$/swj-service-user-provider/src/main/java/com/swj/service/user/provider/api/impl/TbUserServiceImpl.java" />
-    </excludeFromCompile>
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="swj-commom" />
-        <module name="swj-commoms" />
-        <module name="swj-commons-domain" />
-        <module name="swj-commons-dubbo" />
-        <module name="swj-commons-mapper" />
-        <module name="swj-commons-service" />
-        <module name="swj-database" />
-        <module name="swj-service-user-api" />
-        <module name="swj-service-user-consumer" />
-        <module name="swj-service-user-provider" />
-        <module name="swj-static-backend" />
-        <module name="swjcommonsdubbo" />
-        <module name="swjstaticbackend" />
+        <module name="myProject-commons" />
+        <module name="myProject-commons-domain" />
+        <module name="myProject-commons-dubbo" />
+        <module name="myProject-commons-mapper" />
+        <module name="myProject-databases" />
+        <module name="myProject-service-user-api" />
+        <module name="myProject-service-user-consumer" />
+        <module name="myProject-service-user-provider" />
+        <module name="myProject-static-backend" />
+        <module name="myshop-commons" />
+        <module name="myshop-commons-domain" />
+        <module name="myshop-commons-dubbo" />
+        <module name="myshop-commons-mapper" />
+        <module name="myshop-databases" />
+        <module name="myshop-service-user-api" />
+        <module name="myshop-service-user-consumer" />
+        <module name="myshop-service-user-provider" />
+        <module name="myshop-static-backend" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="swj-commom" target="1.8" />
-      <module name="swj-commoms" target="1.8" />
-      <module name="swj-commons-domain" target="1.8" />
-      <module name="swj-commons-dubbo" target="1.8" />
-      <module name="swj-commons-mapper" target="1.8" />
-      <module name="swj-commons-service" target="1.8" />
-      <module name="swj-database" target="1.8" />
-      <module name="swj-dependencies" target="1.8" />
-      <module name="swj-service-user-api" target="1.8" />
-      <module name="swj-service-user-consumer" target="1.8" />
-      <module name="swj-service-user-provider" target="1.8" />
-      <module name="swj-static-backend" target="1.8" />
-      <module name="swjcommonsdubbo" target="1.5" />
-      <module name="swjstaticbackend" target="1.5" />
+      <module name="myProject-commons" target="1.8" />
+      <module name="myProject-commons-domain" target="1.8" />
+      <module name="myProject-commons-dubbo" target="1.8" />
+      <module name="myProject-commons-mapper" target="1.8" />
+      <module name="myProject-databases" target="1.8" />
+      <module name="myProject-dependencies" target="1.8" />
+      <module name="myProject-service-user-api" target="1.8" />
+      <module name="myProject-service-user-consumer" target="1.8" />
+      <module name="myProject-service-user-provider" target="1.8" />
+      <module name="myProject-static-backend" target="1.8" />
+      <module name="myshop-commons" target="1.8" />
+      <module name="myshop-commons-domain" target="1.8" />
+      <module name="myshop-commons-dubbo" target="1.8" />
+      <module name="myshop-commons-mapper" target="1.8" />
+      <module name="myshop-databases" target="1.5" />
+      <module name="myshop-dependencies" target="1.8" />
+      <module name="myshop-service-user-api" target="1.8" />
+      <module name="myshop-service-user-consumer" target="1.8" />
+      <module name="myshop-service-user-provider" target="1.8" />
+      <module name="myshop-static-backend" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -3,17 +3,16 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/myProject.iml" filepath="$PROJECT_DIR$/.idea/myProject.iml" />
-      <module fileurl="file://$PROJECT_DIR$/swj-commoms/swj-commoms.iml" filepath="$PROJECT_DIR$/swj-commoms/swj-commoms.iml" />
-      <module fileurl="file://$PROJECT_DIR$/swj-commons-domain/swj-commons-domain.iml" filepath="$PROJECT_DIR$/swj-commons-domain/swj-commons-domain.iml" />
-      <module fileurl="file://$PROJECT_DIR$/swj-commons-dubbo/swj-commons-dubbo.iml" filepath="$PROJECT_DIR$/swj-commons-dubbo/swj-commons-dubbo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/swj-commons-mapper/swj-commons-mapper.iml" filepath="$PROJECT_DIR$/swj-commons-mapper/swj-commons-mapper.iml" />
-      <module fileurl="file://$PROJECT_DIR$/swj-commons-service/swj-commons-service.iml" filepath="$PROJECT_DIR$/swj-commons-service/swj-commons-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/swj-database/swj-database.iml" filepath="$PROJECT_DIR$/swj-database/swj-database.iml" />
-      <module fileurl="file://$PROJECT_DIR$/swj-dependencies/swj-dependencies.iml" filepath="$PROJECT_DIR$/swj-dependencies/swj-dependencies.iml" />
-      <module fileurl="file://$PROJECT_DIR$/swj-service-user-api/swj-service-user-api.iml" filepath="$PROJECT_DIR$/swj-service-user-api/swj-service-user-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/swj-service-user-consumer/swj-service-user-consumer.iml" filepath="$PROJECT_DIR$/swj-service-user-consumer/swj-service-user-consumer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/swj-service-user-provider/swj-service-user-provider.iml" filepath="$PROJECT_DIR$/swj-service-user-provider/swj-service-user-provider.iml" />
-      <module fileurl="file://$PROJECT_DIR$/swj-static-backend/swj-static-backend.iml" filepath="$PROJECT_DIR$/swj-static-backend/swj-static-backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myProject-commons/myProject-commons.iml" filepath="$PROJECT_DIR$/myProject-commons/myProject-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myProject-commons-domain/myProject-commons-domain.iml" filepath="$PROJECT_DIR$/myProject-commons-domain/myProject-commons-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myProject-commons-dubbo/myProject-commons-dubbo.iml" filepath="$PROJECT_DIR$/myProject-commons-dubbo/myProject-commons-dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myProject-commons-mapper/myProject-commons-mapper.iml" filepath="$PROJECT_DIR$/myProject-commons-mapper/myProject-commons-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myProject-databases/myProject-databases.iml" filepath="$PROJECT_DIR$/myProject-databases/myProject-databases.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myProject-dependencies/myProject-dependencies.iml" filepath="$PROJECT_DIR$/myProject-dependencies/myProject-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myProject-service-user-api/myProject-service-user-api.iml" filepath="$PROJECT_DIR$/myProject-service-user-api/myProject-service-user-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myProject-service-user-consumer/myProject-service-user-consumer.iml" filepath="$PROJECT_DIR$/myProject-service-user-consumer/myProject-service-user-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myProject-service-user-provider/myProject-service-user-provider.iml" filepath="$PROJECT_DIR$/myProject-service-user-provider/myProject-service-user-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myProject-static-backend/myProject-static-backend.iml" filepath="$PROJECT_DIR$/myProject-static-backend/myProject-static-backend.iml" />
     </modules>
   </component>
 </project>

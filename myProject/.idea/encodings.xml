@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
-    <file url="file://$PROJECT_DIR$/swj-commoms" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/swj-commons-domain" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/swj-commons-dubbo" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/swj-commons-mapper" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/swj-commons-service" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/swj-database" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/swj-dependencies" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/swj-service-user-api" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/swj-service-user-consumer" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/swj-service-user-provider" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/swj-static-backend" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myProject-commons" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myProject-commons-domain" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myProject-commons-dubbo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myProject-commons-mapper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myProject-databases" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myProject-dependencies" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myProject-service-user-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myProject-service-user-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myProject-service-user-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myProject-static-backend" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

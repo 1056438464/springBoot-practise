@@ -3,18 +3,25 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/swj-commoms/pom.xml" />
-        <option value="$PROJECT_DIR$/swj-commons-domain/pom.xml" />
-        <option value="$PROJECT_DIR$/swj-commons-mapper/pom.xml" />
-        <option value="$PROJECT_DIR$/swj-dependencies/pom.xml" />
-        <option value="$PROJECT_DIR$/swj-commons-service/pom.xml" />
-        <option value="$PROJECT_DIR$/swj-database/pom.xml" />
-        <option value="$PROJECT_DIR$/swjstaticbackend/pom.xml" />
-        <option value="$PROJECT_DIR$/swj-static-backend/pom.xml" />
-        <option value="$PROJECT_DIR$/swj-commons-dubbo/pom.xml" />
-        <option value="$PROJECT_DIR$/swj-service-user-api/pom.xml" />
-        <option value="$PROJECT_DIR$/swj-service-user-provider/pom.xml" />
-        <option value="$PROJECT_DIR$/swj-service-user-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/myshop-commons/pom.xml" />
+        <option value="$PROJECT_DIR$/myshop-commons-domain/pom.xml" />
+        <option value="$PROJECT_DIR$/myshop-commons-dubbo/pom.xml" />
+        <option value="$PROJECT_DIR$/myshop-commons-mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/myshop-dependencies/pom.xml" />
+        <option value="$PROJECT_DIR$/myshop-service-user-api/pom.xml" />
+        <option value="$PROJECT_DIR$/myshop-service-user-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/myshop-service-user-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/myshop-static-backend/pom.xml" />
+        <option value="$PROJECT_DIR$/myProject-commons/pom.xml" />
+        <option value="$PROJECT_DIR$/myProject-commons-domain/pom.xml" />
+        <option value="$PROJECT_DIR$/myProject-commons-dubbo/pom.xml" />
+        <option value="$PROJECT_DIR$/myProject-commons-mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/myProject-dependencies/pom.xml" />
+        <option value="$PROJECT_DIR$/myProject-service-user-api/pom.xml" />
+        <option value="$PROJECT_DIR$/myProject-service-user-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/myProject-service-user-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/myProject-static-backend/pom.xml" />
+        <option value="$PROJECT_DIR$/myProject-databases/pom.xml" />
       </list>
     </option>
   </component>

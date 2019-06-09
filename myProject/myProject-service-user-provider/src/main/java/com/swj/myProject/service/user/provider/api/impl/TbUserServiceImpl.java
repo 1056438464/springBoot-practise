@@ -1,7 +1,9 @@
 package com.swj.myProject.service.user.provider.api.impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
+import com.swj.myProject.commons.domain.SysUser;
 import com.swj.myProject.commons.domain.TbUser;
+import com.swj.myProject.commons.mapper.SysUserMapper;
 import com.swj.myProject.commons.mapper.TbUserMapper;
 //import com.funtl.myshop.service.redis.api.RedisService;
 import com.swj.myProject.service.user.api.TbUserService;
@@ -18,27 +20,27 @@ import java.util.List;
 public class TbUserServiceImpl implements TbUserService {
 
     @Autowired
-    private TbUserMapper tbUserMapper;
+    private SysUserMapper sysUserMapper;
 
     @Override
-    public List<TbUser> selectAll() {
-        return tbUserMapper.selectAll();
+    public List<SysUser> selectAll() {
+        return sysUserMapper.selectAll();
     }
 
-    @Override
-    public PageInfo<TbUser> page(int pageNum, int pageSize, TbUser tbUser) {
-        String username = tbUser.getUsername();
-        String phone = tbUser.getPhone();
-        String email = tbUser.getEmail();
-
-        Example example = new Example(TbUser.class);
-        example.createCriteria()
-                .andLike("username", username != null ? username + "%" : null)
-                .andLike("phone", phone != null ? phone + "%" : null)
-                .andLike("email", email != null ? email + "%" : null);
-
-        PageHelper.offsetPage(pageNum, pageSize);
-        PageInfo<TbUser> pageInfo = new PageInfo<>(tbUserMapper.selectByExample(example));
-        return pageInfo;
-    }
+//    @Override
+//    public PageInfo<TbUser> page(int pageNum, int pageSize, TbUser tbUser) {
+//        String username = tbUser.getUsername();
+//        String phone = tbUser.getPhone();
+//        String email = tbUser.getEmail();
+//
+//        Example example = new Example(TbUser.class);
+//        example.createCriteria()
+//                .andLike("username", username != null ? username + "%" : null)
+//                .andLike("phone", phone != null ? phone + "%" : null)
+//                .andLike("email", email != null ? email + "%" : null);
+//
+//        PageHelper.offsetPage(pageNum, pageSize);
+//        PageInfo<TbUser> pageInfo = new PageInfo<>(tbUserMapper.selectByExample(example));
+//        return pageInfo;
+//    }
 }

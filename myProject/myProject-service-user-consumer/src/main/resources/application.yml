@@ -1,7 +1,7 @@
 # Spring boot application
 spring:
   application:
-    name: myshop-service-user-consumer
+    name: myProject-service-user-consumer
   thymeleaf:
     cache: false # 开发时关闭缓存,不然没法看到实时页面
     mode: LEGACYHTML5 # 用非严格的 HTML
@@ -20,11 +20,11 @@ services:
 # Dubbo Config properties
 dubbo:
   scan:
-    basePackages: com.funtl.myshop.service.user.consumer
+    basePackages: com.swj.myProject.service.user.consumer
   ## ApplicationConfig Bean
   application:
-    id: myshop-service-user-consumer
-    name: myshop-service-user-consumer
+    id: myProject-service-user-consumer
+    name: myProject-service-user-consumer
   ## ProtocolConfig Bean
   protocol:
     id: dubbo
@@ -71,8 +71,8 @@ management:
         include: "*"
 
 # Apollo
-apollo:
-  bootstrap:
-    enabled: true
-    # will inject 'application' and 'TEST1.apollo' namespaces in bootstrap phase
-    namespaces: application
+#apollo:
+#  bootstrap:
+#    enabled: true
+#    # will inject 'application' and 'TEST1.apollo' namespaces in bootstrap phase
+#    namespaces: application

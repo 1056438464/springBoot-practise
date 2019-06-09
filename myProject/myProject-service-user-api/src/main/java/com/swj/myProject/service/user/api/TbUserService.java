@@ -1,5 +1,6 @@
 package com.swj.myProject.service.user.api;
 
+import com.swj.myProject.commons.domain.SysUser;
 import com.swj.myProject.commons.domain.TbUser;
 import com.github.pagehelper.PageInfo;
 
@@ -10,7 +11,7 @@ public interface TbUserService {
      * 查询全部数据
      * @return
      */
-    List<TbUser> selectAll();
+    List<SysUser> selectAll();
 
     /**
      * 查询分页数据
@@ -19,5 +20,5 @@ public interface TbUserService {
      * @param tbUser 查询参数
      * @return
      */
-    PageInfo<TbUser> page(int pageNum, int pageSize, TbUser tbUser);
+//    PageInfo<TbUser> page(int pageNum, int pageSize, TbUser tbUser);
 }

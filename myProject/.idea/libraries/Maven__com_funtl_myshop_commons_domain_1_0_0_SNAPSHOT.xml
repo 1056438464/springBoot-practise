@@ -1,13 +1,7 @@
 <component name="libraryTable">
   <library name="Maven: com.funtl:myshop-commons-domain:1.0.0-SNAPSHOT">
     <CLASSES />
-    <JAVADOC>
-      <root url="jar://$PROJECT_DIR$/myProject-commons-domain/myshop-commons-domain-1.0.0-SNAPSHOT-javadoc.jar!/" />
-      <root url="jar://$MAVEN_REPOSITORY$/com/funtl/myshop-commons-domain/1.0.0-SNAPSHOT/myshop-commons-domain-1.0.0-SNAPSHOT-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$PROJECT_DIR$/myProject-commons-domain/myshop-commons-domain-1.0.0-SNAPSHOT-sources.jar!/" />
-      <root url="jar://$MAVEN_REPOSITORY$/com/funtl/myshop-commons-domain/1.0.0-SNAPSHOT/myshop-commons-domain-1.0.0-SNAPSHOT-sources.jar!/" />
-    </SOURCES>
+    <JAVADOC />
+    <SOURCES />
   </library>
 </component>

@@ -22,6 +22,7 @@
         <option value="$PROJECT_DIR$/myProject-service-user-provider/pom.xml" />
         <option value="$PROJECT_DIR$/myProject-static-backend/pom.xml" />
         <option value="$PROJECT_DIR$/myProject-databases/pom.xml" />
+        <option value="$PROJECT_DIR$/myProject-service-upload/pom.xml" />
       </list>
     </option>
   </component>

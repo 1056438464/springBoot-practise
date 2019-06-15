@@ -11,6 +11,7 @@
         <module name="myProject-commons-dubbo" />
         <module name="myProject-commons-mapper" />
         <module name="myProject-databases" />
+        <module name="myProject-service-upload" />
         <module name="myProject-service-user-api" />
         <module name="myProject-service-user-consumer" />
         <module name="myProject-service-user-provider" />
@@ -33,6 +34,7 @@
       <module name="myProject-commons-mapper" target="1.8" />
       <module name="myProject-databases" target="1.8" />
       <module name="myProject-dependencies" target="1.8" />
+      <module name="myProject-service-upload" target="1.8" />
       <module name="myProject-service-user-api" target="1.8" />
       <module name="myProject-service-user-consumer" target="1.8" />
       <module name="myProject-service-user-provider" target="1.8" />

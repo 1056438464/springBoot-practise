@@ -1,4 +1,4 @@
-package com.funtl.myProject.statics.backend.dto;
+package com.swj.myProject.statics.backend.dto;
 
 import lombok.Data;
 

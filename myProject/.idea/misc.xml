@@ -23,6 +23,7 @@
         <option value="$PROJECT_DIR$/myProject-static-backend/pom.xml" />
         <option value="$PROJECT_DIR$/myProject-databases/pom.xml" />
         <option value="$PROJECT_DIR$/myProject-service-upload/pom.xml" />
+        <option value="$PROJECT_DIR$/myProject-service-redis-api/pom.xml" />
       </list>
     </option>
   </component>

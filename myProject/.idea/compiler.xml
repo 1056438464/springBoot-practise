@@ -12,6 +12,7 @@
         <module name="myProject-commons-mapper" />
         <module name="myProject-databases" />
         <module name="myProject-service-redis-api" />
+        <module name="myProject-service-redis-provider" />
         <module name="myProject-service-upload" />
         <module name="myProject-service-user-api" />
         <module name="myProject-service-user-consumer" />
@@ -36,6 +37,7 @@
       <module name="myProject-databases" target="1.8" />
       <module name="myProject-dependencies" target="1.8" />
       <module name="myProject-service-redis-api" target="1.8" />
+      <module name="myProject-service-redis-provider" target="1.8" />
       <module name="myProject-service-upload" target="1.8" />
       <module name="myProject-service-user-api" target="1.8" />
       <module name="myProject-service-user-consumer" target="1.8" />

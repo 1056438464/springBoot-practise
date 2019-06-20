@@ -5,6 +5,8 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/myProject-service-upload/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/myProject-service-redis-api/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/myProject-service-redis-provider/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/myProject-service-redis-provider/src/main/resources" type="java-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

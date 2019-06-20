@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/myProject-databases/myProject-databases.iml" filepath="$PROJECT_DIR$/myProject-databases/myProject-databases.iml" />
       <module fileurl="file://$PROJECT_DIR$/myProject-dependencies/myProject-dependencies.iml" filepath="$PROJECT_DIR$/myProject-dependencies/myProject-dependencies.iml" />
       <module fileurl="file://$PROJECT_DIR$/myProject-service-redis-api/myProject-service-redis-api.iml" filepath="$PROJECT_DIR$/myProject-service-redis-api/myProject-service-redis-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myProject-service-redis-provider/myProject-service-redis-provider.iml" filepath="$PROJECT_DIR$/myProject-service-redis-provider/myProject-service-redis-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/myProject-service-upload/myProject-service-upload.iml" filepath="$PROJECT_DIR$/myProject-service-upload/myProject-service-upload.iml" />
       <module fileurl="file://$PROJECT_DIR$/myProject-service-user-api/myProject-service-user-api.iml" filepath="$PROJECT_DIR$/myProject-service-user-api/myProject-service-user-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/myProject-service-user-consumer/myProject-service-user-consumer.iml" filepath="$PROJECT_DIR$/myProject-service-user-consumer/myProject-service-user-consumer.iml" />

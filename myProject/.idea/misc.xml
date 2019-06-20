@@ -24,6 +24,7 @@
         <option value="$PROJECT_DIR$/myProject-databases/pom.xml" />
         <option value="$PROJECT_DIR$/myProject-service-upload/pom.xml" />
         <option value="$PROJECT_DIR$/myProject-service-redis-api/pom.xml" />
+        <option value="$PROJECT_DIR$/myProject-service-redis-provider/pom.xml" />
       </list>
     </option>
   </component>

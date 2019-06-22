@@ -6,6 +6,7 @@ import java.util.Date;
 
 @Table(name = "sys_user")
 public class SysUser implements Serializable {
+    private static final long serialVersionUID = 5227341983840626345L;
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;

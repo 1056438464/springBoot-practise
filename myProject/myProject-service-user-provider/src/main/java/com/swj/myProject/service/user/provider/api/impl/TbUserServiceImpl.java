@@ -15,7 +15,7 @@ import tk.mybatis.mapper.entity.Example;
 
 import java.util.List;
 
-@Service(version = "${services.versions.user.v1}")
+@Service(version = "${services.versions.user.v1}",timeout = 3000)
 @Transactional(readOnly = true)
 public class TbUserServiceImpl implements TbUserService {
 

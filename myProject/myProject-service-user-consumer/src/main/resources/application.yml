@@ -19,6 +19,10 @@ services:
 
 # Dubbo Config properties
 dubbo:
+  consumer:
+    timeout: 10000
+  provider:
+    timeout: 10000
   scan:
     basePackages: com.swj.myProject.service.user.consumer
   ## ApplicationConfig Bean
@@ -35,7 +39,7 @@ dubbo:
   ## RegistryConfig Bean
   registry:
     id: zookeeper
-    address: zookeeper://192.168.1.11:2181?backup=192.168.1.11:2182,192.168.1.11:2183
+    address: zookeeper://192.168.1.7:2181?backup=192.168.1.7:2182,192.168.1.7:2183
 
 # Dubbo Endpoint (default status is disable)
 endpoints:

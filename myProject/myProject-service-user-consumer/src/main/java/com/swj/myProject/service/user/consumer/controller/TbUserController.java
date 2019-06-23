@@ -25,25 +25,9 @@ public class TbUserController {
         return tbUserService.selectAll();
     }
 
-//    @ResponseBody
-//    @RequestMapping(value = "page", method = RequestMethod.GET)
-//    public DataTableDTO<TbUser> page(HttpServletRequest request, TbUser tbUser) {
-//        String strDraw = request.getParameter("draw");
-//        String strStart = request.getParameter("start");
-//        String strLength = request.getParameter("length");
-//
-//        int draw = strDraw == null ? 0 : Integer.parseInt(strDraw);
-//        int start = strStart == null ? 0 : Integer.parseInt(strStart);
-//        int length = strLength == null ? 10 : Integer.parseInt(strLength);
-//
-//        // 封装 Datatables 需要的结果
-//        PageInfo<TbUser> pageInfo = tbUserService.page(start, length, tbUser);
-//        DataTableDTO<TbUser> dataTableDTO = new DataTableDTO<>();
-//        dataTableDTO.setData(pageInfo.getList());
-//        dataTableDTO.setDraw(draw);
-//        dataTableDTO.setRecordsTotal(pageInfo.getTotal());
-//        dataTableDTO.setRecordsFiltered(pageInfo.getTotal());
-//
-//        return dataTableDTO;
-//    }
+    @RequestMapping(value = "list1")
+    public String list1() {
+        return "11111";
+    }
+
 }

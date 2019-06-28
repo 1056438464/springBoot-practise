@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
+import java.util.List;
 
 @RestController
 @RequestMapping(value = "/api/user")
@@ -41,14 +42,14 @@ public class LoginController
     @RequestMapping(value = "/getUserInfo")
     public String get(long userId)
     {
-        User user = userService.findUserByUserId(userId);
+        List user = tbUserService.selectAll();
         if (user != null)
         {
-            return new ReturnData(StatusCode.REQUEST_SUCCESS, user, "查询成功！");
+            return  "查询成功！";
         }
         else
         {
-            throw new MyException(StatusCode.USER_NOT_EXIST, "用户不存在！");
+            return  "用户不存在！";
         }
     }
 }

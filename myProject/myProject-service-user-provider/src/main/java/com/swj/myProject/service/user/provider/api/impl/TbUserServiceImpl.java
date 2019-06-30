@@ -2,9 +2,7 @@ package com.swj.myProject.service.user.provider.api.impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
 import com.swj.myProject.commons.domain.SysUser;
-import com.swj.myProject.commons.domain.TbUser;
 import com.swj.myProject.commons.mapper.SysUserMapper;
-import com.swj.myProject.commons.mapper.TbUserMapper;
 //import com.funtl.myshop.service.redis.api.RedisService;
 import com.swj.myProject.service.user.api.TbUserService;
 import com.github.pagehelper.PageHelper;
@@ -26,5 +24,11 @@ public class TbUserServiceImpl implements TbUserService {
     public List<SysUser> selectAll() {
         return sysUserMapper.selectAll();
     }
+
+    @Override
+    public SysUser selectByCondition(Object condition) {
+        return sysUserMapper.selectOneByExample(condition);
+    }
+
 
 }

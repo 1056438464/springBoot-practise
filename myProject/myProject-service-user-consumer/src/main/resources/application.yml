@@ -29,6 +29,7 @@ dubbo:
   application:
     id: myProject-service-user-consumer
     name: myProject-service-user-consumer
+    qos-port: 22222
   ## ProtocolConfig Bean
   protocol:
     id: dubbo

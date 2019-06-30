@@ -7,6 +7,8 @@
       <sourceFolder url="file://$MODULE_DIR$/myProject-service-redis-api/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/myProject-service-redis-provider/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/myProject-service-redis-provider/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/myProject-service-sso/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/myProject-service-sso/src/main/resources" type="java-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

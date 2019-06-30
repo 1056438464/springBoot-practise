@@ -32,7 +32,6 @@
 
         <!-- Spring Cloud Settings -->
         <cloud-hystrix.version>2.0.1.RELEASE</cloud-hystrix.version>
-        <spring-cloud.version>Finchley.RELEASE</spring-cloud.version>
 
         <!-- Commons Settings -->
         <kyro.version>0.42</kyro.version>
@@ -80,12 +79,6 @@
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-starter-netflix-hystrix-dashboard</artifactId>
                 <version>${cloud-hystrix.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-dependencies</artifactId>
-                <version>${spring-cloud.version}</version>
             </dependency>
             <!-- Spring Cloud End -->
 

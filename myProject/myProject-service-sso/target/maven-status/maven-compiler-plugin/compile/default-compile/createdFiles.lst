@@ -1,0 +1,3 @@
+com\swj\myProject\service\MyProjectServiceSSOApplication.class
+com\swj\myProject\service\sso\RedisSessionInterceptor.class
+com\swj\myProject\service\sso\WebSecurityConfig.class

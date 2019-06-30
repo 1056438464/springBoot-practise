@@ -11,4 +11,8 @@
     <result column="createtime" jdbcType="TIMESTAMP" property="createtime" />
     <result column="role_id" jdbcType="INTEGER" property="roleId" />
   </resultMap>
+
+  <select id="LoginUser" parameterType="java.util.Map" resultType="java.util.Map">
+    SELECT * from sys_user where username=#{username} and password=#{password}
+  </select>
 </mapper>

@@ -4,6 +4,7 @@ import com.alibaba.dubbo.config.annotation.Service;
 import com.swj.myProject.commons.domain.SysUser;
 import com.swj.myProject.commons.domain.TbUser;
 import com.swj.myProject.commons.mapper.SysUserMapper;
+import com.swj.myProject.commons.mapper.TbContentCategoryMapper;
 import com.swj.myProject.commons.mapper.TbUserMapper;
 //import com.funtl.myshop.service.redis.api.RedisService;
 import com.swj.myProject.service.user.api.TbUserService;
@@ -22,6 +23,9 @@ public class TbUserServiceImpl implements TbUserService {
 
     @Autowired
     private SysUserMapper sysUserMapper;
+
+    @Autowired
+    private TbContentCategoryMapper tbContentCategoryMapper;
 
     @Override
     public List<SysUser> selectAll() {

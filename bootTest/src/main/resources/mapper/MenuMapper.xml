@@ -16,15 +16,25 @@
     <id column="id" property="id"></id>
     <result column="name" property="name"></result>
     <collection property="children" select="findAllRecursion" column="id"></collection>
-    <!--查到的cid作为下次的pid-->
+    <!--查到的id作为下次的parentId-->
   </resultMap>
 
+  <resultMap id="getSelfOther1" type="com.shangwj.blog.model.Menu">
+    <id column="id" property="id"></id>
+    <result column="name" property="name"></result>
+    <collection property="children" select="findMenuByParentId" column="id"></collection>
+    <!--查到的id作为下次的parentId-->
+  </resultMap>
 
   <select id="findAllRecursion" resultMap="getSelf">
     SELECT id,name,parentId FROM Menu WHERE parentId = #{id}
   </select>
 
-  <select id="findMenuByParentId" resultType="Map">
+  <select id="findAllRecursionOther1" resultMap="getSelfOther1">
+    SELECT id,name,parentId FROM Menu WHERE parentId = 0
+  </select>
+
+  <select id="findMenuByParentId" resultMap="getSelfOther1">
     SELECT id,name,parentId FROM Menu WHERE parentId = #{id}
   </select>
 </mapper>

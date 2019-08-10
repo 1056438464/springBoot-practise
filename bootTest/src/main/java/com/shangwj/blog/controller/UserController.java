@@ -36,4 +36,17 @@ public class UserController {
         return object.toString();
     }
 
+    @RequestMapping(value = "/getUserInfoOther1")
+    public String getUserInfoOther1() {
+        List<Menu> info = new ArrayList<>();
+
+        try {
+            info = menuMapper.findAllRecursionOther1();
+            object.put("message", info);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return object.toString();
+    }
+
 }

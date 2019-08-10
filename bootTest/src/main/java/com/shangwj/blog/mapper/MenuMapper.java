@@ -7,4 +7,6 @@ import java.util.Map;
 
 public interface MenuMapper {
     List<Menu> findAllRecursion(Integer id);
+
+    List<Menu> findAllRecursionOther1();
 }

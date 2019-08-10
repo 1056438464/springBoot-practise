@@ -107,14 +107,6 @@
 			</resource>
         </resources>
 		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
-					<mainClass>com.shangwj.blog.BlogApplication</mainClass>
-				</configuration>
-			</plugin>
-
 			<!--mybatis代码自动生成插件-->
 			<plugin>
 				<groupId>org.mybatis.generator</groupId>

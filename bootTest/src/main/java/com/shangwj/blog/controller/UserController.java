@@ -1,6 +1,6 @@
 package com.shangwj.blog.controller;
 
-import com.shangwj.blog.mapper.impl.MenuMapper;
+import com.shangwj.blog.mapper.MenuMapper;
 import com.shangwj.blog.model.Menu;
 import net.minidev.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,13 +11,14 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.annotation.Resource;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 
 @RestController
 @RequestMapping(value = "/test")
 public class UserController {
 
-    @Autowired
+    @Resource
     private MenuMapper menuMapper;
 
     JSONObject object = new JSONObject();
@@ -27,7 +28,7 @@ public class UserController {
         List<Menu> info = new ArrayList<>();
 
         try {
-            info = menuMapper.findAllRecursion();
+            info = menuMapper.findAllRecursion(0);
             object.put("message", info);
         } catch (Exception e) {
             e.printStackTrace();

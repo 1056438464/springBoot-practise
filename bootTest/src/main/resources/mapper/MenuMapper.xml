@@ -14,6 +14,15 @@
     <!--查到的id作为下次的parentId-->
   </resultMap>
 
+  <resultMap id="getAllInfo" type="com.shangwj.blog.model.MenuMap">
+    <id column="id" property="id"></id>
+    <result column="name" property="name"></result>
+    <association property="menu" javaType="com.shangwj.blog.model.Menu" column="menu">
+      <result column="id" property="id"></result>
+      <result column="name" property="name"></result>
+    </association>
+  </resultMap>
+
   <resultMap id="getSelfOther1" type="com.shangwj.blog.model.Menu">
     <id column="id" property="id"></id>
     <result column="name" property="name"></result>
@@ -31,5 +40,9 @@
 
   <select id="findMenuByParentId" resultMap="getSelfOther1">
     SELECT id,name,parentId FROM Menu WHERE parentId = #{id}
+  </select>
+
+  <select id="getAllInfo" resultMap="getAllInfo">
+    SELECT id,name,parentId FROM Menu
   </select>
 </mapper>

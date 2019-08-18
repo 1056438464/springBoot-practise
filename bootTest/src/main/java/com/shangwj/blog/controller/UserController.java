@@ -2,6 +2,7 @@ package com.shangwj.blog.controller;
 
 import com.shangwj.blog.mapper.MenuMapper;
 import com.shangwj.blog.model.Menu;
+import com.shangwj.blog.model.MenuMap;
 import net.minidev.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -42,6 +43,18 @@ public class UserController {
 
         try {
             info = menuMapper.findAllRecursionOther1();
+            object.put("message", info);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return object.toString();
+    }
+
+    @RequestMapping(value = "/getAllInfo")
+    public String getAllInfo() {
+        List<MenuMap> info = new ArrayList<>();
+        try {
+             info = menuMapper.getAllInfo();
             object.put("message", info);
         } catch (Exception e) {
             e.printStackTrace();

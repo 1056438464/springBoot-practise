@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -66,11 +67,17 @@ public class UserController {
     public String gettwoParam() {
 
         try {
-            List<Integer> list = new ArrayList<>();
-            list.add(1);
-            list.add(2);
-            list.add(3);
-             Map<String,Object> info = menuMapper.gettwoParam(list,0);
+            List<Map> list = new ArrayList<>();
+            Map<String,Object> map1 = new HashMap<String, Object>();
+            map1.put("num",1);
+            Map<String,Object> map2 = new HashMap<String, Object>();
+            map2.put("num",2);
+            Map<String,Object> map3 = new HashMap<String, Object>();
+            map3.put("num",3);
+            list.add(map1);
+            list.add(map2);
+            list.add(map3);
+             Map<String,Object> info = menuMapper.gettwoParam(list,1);
             object.put("message", info);
         } catch (Exception e) {
             e.printStackTrace();

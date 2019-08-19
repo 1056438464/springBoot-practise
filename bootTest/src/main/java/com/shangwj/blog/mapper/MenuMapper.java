@@ -14,5 +14,5 @@ public interface MenuMapper {
 
     List<MenuMap> getAllInfo();
 
-    Map gettwoParam(@Param("list") List list,@Param("parentId") Integer parentId);
+    Map gettwoParam(@Param("list1") List list,@Param("parentId") Integer parentId);
 }

@@ -2,6 +2,7 @@ package com.shangwj.blog.mapper;
 
 import com.shangwj.blog.model.Menu;
 import com.shangwj.blog.model.MenuMap;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 import java.util.Map;
@@ -12,4 +13,6 @@ public interface MenuMapper {
     List<Menu> findAllRecursionOther1();
 
     List<MenuMap> getAllInfo();
+
+    Map gettwoParam(@Param("list") List list,@Param("parentId") Integer parentId);
 }

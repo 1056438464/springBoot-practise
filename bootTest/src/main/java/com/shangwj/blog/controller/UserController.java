@@ -62,4 +62,20 @@ public class UserController {
         return object.toString();
     }
 
+    @RequestMapping(value = "/gettwoParam")
+    public String gettwoParam() {
+
+        try {
+            List<Integer> list = new ArrayList<>();
+            list.add(1);
+            list.add(2);
+            list.add(3);
+             Map<String,Object> info = menuMapper.gettwoParam(list,0);
+            object.put("message", info);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return object.toString();
+    }
+
 }

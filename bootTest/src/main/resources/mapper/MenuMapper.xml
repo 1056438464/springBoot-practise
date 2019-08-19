@@ -45,4 +45,12 @@
   <select id="getAllInfo" resultMap="getAllInfo">
     SELECT id,name,parentId FROM Menu
   </select>
+
+  <select id="gettwoParam" resultType="map">
+    select * from Menu where id in
+    <foreach collection="list" item="item" close=")" open="(" separator=",">
+      ${item}
+    </foreach>
+    and parentId = ${parentId}
+  </select>
 </mapper>

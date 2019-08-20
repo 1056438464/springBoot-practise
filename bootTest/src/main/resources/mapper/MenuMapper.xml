@@ -48,7 +48,7 @@
 
   <select id="gettwoParam" resultType="map">
     select * from Menu where id in
-    <foreach collection="list1" item="item" close=")" open="(" separator=",">
+    <foreach collection="param" item="item" close=")" open="(" separator=",">
       ${item.num}
     </foreach>
     and parentId = ${parentId}

@@ -38,6 +38,10 @@ public class UserController {
         return object.toString();
     }
 
+    /**
+     * 递归查询
+     * @return
+     */
     @RequestMapping(value = "/getUserInfoOther1")
     public String getUserInfoOther1() {
         List<Menu> info = new ArrayList<>();
@@ -51,6 +55,10 @@ public class UserController {
         return object.toString();
     }
 
+    /**
+     * 一对一查询
+     * @return
+     */
     @RequestMapping(value = "/getAllInfo")
     public String getAllInfo() {
         List<MenuMap> info = new ArrayList<>();
@@ -63,6 +71,10 @@ public class UserController {
         return object.toString();
     }
 
+    /**
+     * 传入不同参数或多个参数
+     * @return
+     */
     @RequestMapping(value = "/gettwoParam")
     public String gettwoParam() {
 

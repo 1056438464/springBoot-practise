@@ -90,6 +90,13 @@
 			<artifactId>json-smart</artifactId>
 			<version>RELEASE</version>
 		</dependency>
+
+		<!--aop start-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-aop</artifactId>
+		</dependency>
+		<!--aop end-->
 	</dependencies>
 
 	<build>

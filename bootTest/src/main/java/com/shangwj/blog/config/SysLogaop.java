@@ -23,7 +23,7 @@ public class SysLogaop {
 
     private Logger logger = LoggerFactory.getLogger(SysLogaop.class);
 
-    @Pointcut("execution(public * com.shangwj.blog..*.*(..))")
+    @Pointcut("execution(public * com.shangwj.blog.mapper..*.*(..))")
     public void webLog(){}
 
     @Before("webLog()")

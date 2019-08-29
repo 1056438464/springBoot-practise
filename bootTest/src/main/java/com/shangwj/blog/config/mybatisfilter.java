@@ -47,7 +47,7 @@ public class mybatisfilter implements Interceptor {
         Field field = boundSql.getClass().getDeclaredField("sql");
         field.setAccessible(true);
         field.set(boundSql, mSql);
-        
+
 
         return invocation.proceed();
 

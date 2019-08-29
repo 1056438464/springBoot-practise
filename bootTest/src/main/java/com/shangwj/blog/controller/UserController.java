@@ -6,6 +6,7 @@ import com.shangwj.blog.model.MenuMap;
 import net.minidev.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import org.springframework.cglib.beans.BeanMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -97,4 +98,21 @@ public class UserController {
         return object.toString();
     }
 
+
+    @RequestMapping(value = "/testBeanMap")
+    public String testBeanMap() {
+
+        List<MenuMap> info = new ArrayList<>();
+        try {
+            info = menuMapper.getAllInfo();
+            MenuMap menuMap = info.get(0);
+            BeanMap beanmap = BeanMap.create(menuMap);
+            beanmap.put("id",2);
+            beanmap.put("swj",2);
+            object.put("message", beanmap);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return object.toString();
+    }
 }

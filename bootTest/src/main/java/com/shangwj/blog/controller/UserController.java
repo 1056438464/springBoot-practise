@@ -3,6 +3,7 @@ package com.shangwj.blog.controller;
 import com.shangwj.blog.mapper.MenuMapper;
 import com.shangwj.blog.model.Menu;
 import com.shangwj.blog.model.MenuMap;
+import lombok.extern.slf4j.Slf4j;
 import net.minidev.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -16,7 +17,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-
+@Slf4j
 @RestController
 @RequestMapping(value = "/test")
 public class UserController {
@@ -32,6 +33,7 @@ public class UserController {
 
         try {
             info = menuMapper.findAllRecursion(0);
+
             object.put("message", info);
         } catch (Exception e) {
             e.printStackTrace();
@@ -110,9 +112,17 @@ public class UserController {
             beanmap.put("id",2);
             beanmap.put("swj",2);
             object.put("message", beanmap);
+
         } catch (Exception e) {
             e.printStackTrace();
         }
         return object.toString();
     }
+
+    @RequestMapping(value = "/testMyException")
+    public void testMyException() throws Exception{
+        int id=1/0;
+    }
+
+
 }
